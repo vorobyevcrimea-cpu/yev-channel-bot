@@ -221,10 +221,28 @@ async def scheduled(ctx: ContextTypes.DEFAULT_TYPE):
     try:
         await send(kind, ctx.bot, CHANNEL_ID)
         log.info("Posted %s", kind)
-    except Exception:
+    except Exception as exc:
         log.exception("Failed to post %s", kind)
         if ADMIN_ID:
-            await ctx.bot.send_message(ADMIN_ID, f"⚠️ Не получилось опубликовать «{kind}». Проверьте логи.")
+            await ctx.bot.send_message(ADMIN_ID, f"⚠️ Не получилось опубликовать «{kind}».\n\n{explain_error(exc)}")
+
+
+def explain_error(exc: Exception) -> str:
+    """Понятное объяснение частых ошибок Telegram."""
+    msg = str(exc)
+    low = msg.lower()
+    if "chat not found" in low:
+        hint = (f"Канал «{CHANNEL_ID}» не найден. Проверьте CHANNEL_ID в Railway: это должен быть "
+                "публичный username канала (например @english_with_yev), а для приватного канала — "
+                "числовой ID вида -100…")
+    elif "not enough rights" in low or "need administrator rights" in low or "forbidden" in low:
+        hint = ("У бота нет прав в канале. Канал → Изменить → Администраторы → добавьте бота "
+                "и включите «Публикация сообщений».")
+    elif "can't parse entities" in low:
+        hint = "Ошибка разметки в тексте поста — проверьте теги <b>, <i> в content.json."
+    else:
+        hint = "Пришлите этот текст ошибки в чат с Claude — разберёмся."
+    return f"Ошибка Telegram: {msg}\n\n💡 {hint}\n\nПроверить настройки: /check"
 
 
 # ---------- команды для админа ----------
@@ -257,7 +275,8 @@ async def cmd_start(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         "Команды:\n"
         "/preview <тип> — показать сегодняшний пост мне\n"
         "/tomorrow <тип> — показать завтрашний\n"
-        "/post <тип> — опубликовать в канал прямо сейчас"
+        "/post <тип> — опубликовать в канал прямо сейчас\n"
+        "/check — проверить, видит ли бот канал и есть ли права"
     )
 
 
@@ -273,10 +292,43 @@ def make_cmd(target: str, shift: int, name: str):
         if not kind:
             return await update.message.reply_text(f"Укажите тип: /{name} {KINDS_HINT}")
         chat = CHANNEL_ID if target == "channel" else update.effective_chat.id
-        await send(kind, ctx.bot, chat, shift=shift)
+        try:
+            await send(kind, ctx.bot, chat, shift=shift)
+        except Exception as exc:
+            log.exception("Command %s %s failed", name, kind)
+            return await update.message.reply_text(f"⚠️ Не получилось.\n\n{explain_error(exc)}")
         if target == "channel":
             await update.message.reply_text("✅ Опубликовано в канал")
     return handler
+
+
+@admin_only
+async def cmd_check(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    """Проверка: видит ли бот канал и может ли в нём публиковать."""
+    lines = [f"CHANNEL_ID = {CHANNEL_ID}"]
+    try:
+        chat = await ctx.bot.get_chat(CHANNEL_ID)
+        lines.append(f"✅ Канал найден: «{chat.title}» (id {chat.id})")
+    except Exception as exc:
+        lines.append(f"❌ Канал не найден: {exc}")
+        lines.append("💡 Впишите в Railway → Variables → CHANNEL_ID точный @username канала "
+                     "(не бота!). Его видно в канале: нажмите на название → «Ссылка» t.me/…")
+        return await update.message.reply_text("\n".join(lines))
+    try:
+        me = await ctx.bot.get_me()
+        member = await ctx.bot.get_chat_member(chat.id, me.id)
+        if member.status == "administrator":
+            can_post = getattr(member, "can_post_messages", None)
+            if can_post is False:
+                lines.append("❌ Бот админ, но право «Публикация сообщений» выключено")
+            else:
+                lines.append("✅ Бот — админ с правом публикации. Всё готово! Попробуйте /post word")
+        else:
+            lines.append(f"❌ Бот не админ канала (статус: {member.status}). "
+                         "Канал → Изменить → Администраторы → добавьте бота с правом «Публикация сообщений»")
+    except Exception as exc:
+        lines.append(f"❌ Не удалось проверить права: {exc}\n💡 Скорее всего, бот не добавлен в администраторы канала")
+    await update.message.reply_text("\n".join(lines))
 
 
 def main():
@@ -285,6 +337,7 @@ def main():
     app.add_handler(CommandHandler("preview", make_cmd("me", 0, "preview")))
     app.add_handler(CommandHandler("tomorrow", make_cmd("me", 1, "tomorrow")))
     app.add_handler(CommandHandler("post", make_cmd("channel", 0, "post")))
+    app.add_handler(CommandHandler("check", cmd_check))
 
     for kind, (hhmm, days) in SCHEDULE.items():
         if not hhmm:
