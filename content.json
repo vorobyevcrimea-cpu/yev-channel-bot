@@ -1,131 +1,5745 @@
 {
-  "words": [
-    {"word": "resilient", "ipa": "/rɪˈzɪliənt/", "pos": "adj.", "ru": "стойкий, быстро восстанавливающийся", "meaning": "able to recover quickly from difficulties",
-     "examples": [["Kids are surprisingly resilient.", "Дети на удивление стойкие."], ["She stayed resilient after losing her job.", "Она не сломалась после потери работы."]],
-     "collocations": "emotionally resilient, a resilient economy"},
-    {"word": "overwhelmed", "ipa": "/ˌəʊvəˈwelmd/", "pos": "adj.", "ru": "перегруженный, ошеломлённый", "meaning": "feeling that there is too much to deal with",
-     "examples": [["I feel a bit overwhelmed at work this week.", "На этой неделе я немного зашиваюсь на работе."], ["He was overwhelmed by all the kind messages.", "Его ошеломили все эти добрые сообщения."]],
-     "collocations": "feel overwhelmed, completely overwhelmed"},
-    {"word": "reluctant", "ipa": "/rɪˈlʌktənt/", "pos": "adj.", "ru": "неохотный, не желающий", "meaning": "not wanting to do something",
-     "examples": [["She was reluctant to speak English at first.", "Сначала она не хотела говорить по-английски."], ["I'm reluctant to change my plans.", "Мне не хочется менять планы."]],
-     "collocations": "be reluctant to do sth, a reluctant hero"},
-    {"word": "genuine", "ipa": "/ˈdʒenjuɪn/", "pos": "adj.", "ru": "искренний, подлинный", "meaning": "real and sincere, not fake",
-     "examples": [["Her smile was genuine.", "Её улыбка была искренней."], ["Is this bag genuine leather?", "Эта сумка из натуральной кожи?"]],
-     "collocations": "genuine interest, genuine leather"},
-    {"word": "thrive", "ipa": "/θraɪv/", "pos": "verb", "ru": "процветать, расцветать", "meaning": "to grow, develop or be successful",
-     "examples": [["Some people thrive under pressure.", "Некоторые люди расцветают под давлением."], ["Plants thrive in this climate.", "Растения отлично растут в этом климате."]],
-     "collocations": "thrive on challenges, a thriving business"},
-    {"word": "cosy", "ipa": "/ˈkəʊzi/", "pos": "adj.", "ru": "уютный", "meaning": "warm, comfortable and relaxing",
-     "examples": [["We found a cosy café near the beach.", "Мы нашли уютное кафе у пляжа."], ["Her flat is small but cosy.", "Её квартира маленькая, но уютная."]],
-     "collocations": "a cosy evening, nice and cosy (US: cozy)"},
-    {"word": "awkward", "ipa": "/ˈɔːkwəd/", "pos": "adj.", "ru": "неловкий, неудобный", "meaning": "making you feel embarrassed or uncomfortable",
-     "examples": [["There was an awkward silence.", "Повисла неловкая тишина."], ["Sorry, this is a bit awkward…", "Извини, это немного неловко…"]],
-     "collocations": "an awkward moment, feel awkward"},
-    {"word": "eager", "ipa": "/ˈiːɡə/", "pos": "adj.", "ru": "жаждущий, полный энтузиазма", "meaning": "wanting to do something very much",
-     "examples": [["The students are eager to learn.", "Ученики горят желанием учиться."], ["I'm eager to hear your news!", "Не терпится услышать твои новости!"]],
-     "collocations": "eager to do sth, an eager learner"},
-    {"word": "procrastinate", "ipa": "/prəˈkræstɪneɪt/", "pos": "verb", "ru": "откладывать на потом", "meaning": "to delay doing something you should do",
-     "examples": [["Stop procrastinating and start your homework!", "Хватит откладывать, садись за домашку!"], ["I always procrastinate on Mondays.", "По понедельникам я вечно всё откладываю."]],
-     "collocations": "tend to procrastinate, stop procrastinating"},
-    {"word": "straightforward", "ipa": "/ˌstreɪtˈfɔːwəd/", "pos": "adj.", "ru": "простой, понятный; прямой", "meaning": "easy to understand or do; honest",
-     "examples": [["The instructions are pretty straightforward.", "Инструкция довольно простая."], ["He's a straightforward person.", "Он прямой человек."]],
-     "collocations": "fairly straightforward, a straightforward answer"},
-    {"word": "wander", "ipa": "/ˈwɒndə/", "pos": "verb", "ru": "бродить, гулять без цели", "meaning": "to walk around slowly without a clear purpose",
-     "examples": [["We wandered around the old town.", "Мы бродили по старому городу."], ["My mind keeps wandering.", "Мои мысли всё время уплывают."]],
-     "collocations": "wander around, wander off"},
-    {"word": "grateful", "ipa": "/ˈɡreɪtfl/", "pos": "adj.", "ru": "благодарный", "meaning": "feeling or showing thanks",
-     "examples": [["I'm so grateful for your help.", "Я так благодарна за твою помощь."], ["We should be grateful for small things.", "Стоит быть благодарными за мелочи."]],
-     "collocations": "grateful for sth, deeply grateful"},
-    {"word": "hassle", "ipa": "/ˈhæsl/", "pos": "noun", "ru": "морока, хлопоты", "meaning": "something annoying that takes time and effort",
-     "examples": [["Getting a visa is such a hassle.", "Получение визы — такая морока."], ["No hassle, I'll do it.", "Без проблем, сделаю."]],
-     "collocations": "a real hassle, hassle-free"},
-    {"word": "spontaneous", "ipa": "/spɒnˈteɪniəs/", "pos": "adj.", "ru": "спонтанный", "meaning": "done because you suddenly want to, without planning",
-     "examples": [["We took a spontaneous trip to the mountains.", "Мы спонтанно съездили в горы."], ["She's fun and spontaneous.", "Она весёлая и спонтанная."]],
-     "collocations": "a spontaneous decision, spontaneous trip"}
-  ],
-  "phrases": [
-    {"phrase": "figure out", "ru": "разобраться, понять", "note": "Phrasal verb — очень частый в разговоре",
-     "examples": [["I can't figure out this app.", "Не могу разобраться в этом приложении."], ["We'll figure it out together.", "Мы вместе разберёмся."]]},
-    {"phrase": "run out of", "ru": "закончиться (о запасах)", "note": "Кто-то run out of что-то",
-     "examples": [["We've run out of coffee!", "У нас закончился кофе!"], ["I'm running out of time.", "У меня заканчивается время."]]},
-    {"phrase": "take it easy", "ru": "не напрягайся, расслабься", "note": "Можно сказать и на прощание: «Take it easy!»",
-     "examples": [["Take it easy, it's not a big deal.", "Расслабься, ничего страшного."], ["I'm taking it easy this weekend.", "На этих выходных я отдыхаю."]]},
-    {"phrase": "catch up", "ru": "встретиться и пообщаться; наверстать", "note": "catch up with sb / catch up on sth",
-     "examples": [["Let's catch up over coffee!", "Давай встретимся на кофе и поболтаем!"], ["I need to catch up on sleep.", "Мне надо отоспаться."]]},
-    {"phrase": "get used to", "ru": "привыкнуть к", "note": "После to — существительное или -ing!",
-     "examples": [["I'm getting used to the heat.", "Я привыкаю к жаре."], ["You'll get used to waking up early.", "Ты привыкнешь рано вставать."]]},
-    {"phrase": "it's up to you", "ru": "решать тебе", "note": "Вежливо отдаём выбор собеседнику",
-     "examples": [["Pizza or sushi? It's up to you.", "Пицца или суши? Решай сам."], ["It's up to you whether you come.", "Приходить или нет — решать тебе."]]},
-    {"phrase": "on second thought", "ru": "хотя нет, подумав…", "note": "Меняем решение прямо в разговоре (UK: on second thoughts)",
-     "examples": [["I'll have tea. On second thought, coffee, please.", "Я буду чай. Хотя нет, кофе, пожалуйста."]]},
-    {"phrase": "I'm not a big fan of…", "ru": "я не очень люблю…", "note": "Мягче, чем «I don't like»",
-     "examples": [["I'm not a big fan of horror films.", "Я не большая любительница ужастиков."]]},
-    {"phrase": "keep in touch", "ru": "оставаться на связи", "note": "Часто на прощание",
-     "examples": [["It was great to meet you — let's keep in touch!", "Было здорово познакомиться — давай не теряться!"]]},
-    {"phrase": "give it a try", "ru": "попробовать", "note": "Синоним: give it a go / give it a shot",
-     "examples": [["I've never surfed, but I'll give it a try.", "Я никогда не серфила, но попробую."]]},
-    {"phrase": "make sense", "ru": "иметь смысл, быть понятным", "note": "НЕ «have sense»!",
-     "examples": [["Does that make sense?", "Понятно?"], ["It makes sense to book early.", "Есть смысл бронировать заранее."]]},
-    {"phrase": "no wonder", "ru": "неудивительно", "note": "No wonder + предложение",
-     "examples": [["You worked all night? No wonder you're tired.", "Ты работал всю ночь? Неудивительно, что ты устал."]]},
-    {"phrase": "call it a day", "ru": "закончить на сегодня", "note": "Идиома: заканчиваем работу",
-     "examples": [["It's 7 pm — let's call it a day.", "Уже 7 вечера — давайте на сегодня всё."]]},
-    {"phrase": "a piece of cake", "ru": "проще простого", "note": "Идиома ≈ «раз плюнуть»",
-     "examples": [["The test was a piece of cake!", "Тест был проще простого!"]]}
-  ],
-  "quizzes": [
-    {"q": "I ___ in Vietnam since 2020.", "options": ["live", "am living", "have lived", "lived"], "correct": 2, "explain": "Present Perfect: действие началось в прошлом и длится до сих пор (since 2020)."},
-    {"q": "She's really good ___ maths.", "options": ["at", "in", "on", "for"], "correct": 0, "explain": "good at sth — хорош в чём-то."},
-    {"q": "If I ___ you, I'd call her.", "options": ["am", "was", "were", "be"], "correct": 2, "explain": "If I were you — устойчивый совет (2nd conditional)."},
-    {"q": "We've run ___ of milk.", "options": ["out", "off", "over", "away"], "correct": 0, "explain": "run out of — закончиться."},
-    {"q": "Which phrasal verb means «разобраться»?", "options": ["figure out", "look after", "give up", "turn down"], "correct": 0, "explain": "figure out — разобраться, понять."},
-    {"q": "I'm looking forward to ___ you.", "options": ["see", "seeing", "saw", "to see"], "correct": 1, "explain": "look forward to + -ing: to здесь предлог."},
-    {"q": "He ___ to the gym every day.", "options": ["go", "goes", "is going", "going"], "correct": 1, "explain": "Present Simple, he/she/it → -s: goes."},
-    {"q": "There isn't ___ sugar left.", "options": ["many", "much", "a few", "few"], "correct": 1, "explain": "sugar — неисчисляемое → much."},
-    {"q": "I've never ___ sushi.", "options": ["eat", "ate", "eaten", "eating"], "correct": 2, "explain": "have + 3-я форма: eat – ate – eaten."},
-    {"q": "Choose the word for «неловкий»:", "options": ["awkward", "eager", "genuine", "grateful"], "correct": 0, "explain": "awkward — неловкий, неудобный."},
-    {"q": "By the time we arrived, the film ___.", "options": ["started", "has started", "had started", "starts"], "correct": 2, "explain": "Past Perfect: одно действие раньше другого в прошлом."},
-    {"q": "It's the ___ day of my life!", "options": ["best", "better", "most good", "goodest"], "correct": 0, "explain": "good – better – the best."},
-    {"q": "Can you ___ me a favour?", "options": ["make", "do", "give", "take"], "correct": 1, "explain": "do sb a favour — оказать услугу."},
-    {"q": "I'm not used to ___ up early.", "options": ["get", "getting", "got", "gets"], "correct": 1, "explain": "be used to + -ing — привык к чему-то."}
-  ],
-  "questions": [
-    {"q": "What's the best thing that happened to you this week?", "ru": "Что лучшего случилось с вами на этой неделе?", "starter": "The best thing this week was…"},
-    {"q": "If you could live in any country, where would it be?", "ru": "Если бы можно было жить в любой стране, где бы это было?", "starter": "I'd live in… because…"},
-    {"q": "What's your favourite English word and why?", "ru": "Ваше любимое английское слово и почему?", "starter": "My favourite word is… because…"},
-    {"q": "Describe your perfect weekend in 3 sentences.", "ru": "Опишите идеальные выходные в 3 предложениях.", "starter": "On my perfect weekend, I would…"},
-    {"q": "Tea or coffee? Explain your choice!", "ru": "Чай или кофе? Объясните выбор!", "starter": "I'm more of a … person because…"},
-    {"q": "What's one skill you'd love to learn?", "ru": "Какой навык вы мечтаете освоить?", "starter": "I'd love to learn how to…"},
-    {"q": "What's the last film you watched? Would you recommend it?", "ru": "Какой фильм вы смотрели последним? Посоветуете?", "starter": "The last film I watched was… I'd (not) recommend it because…"},
-    {"q": "What do you do when you procrastinate? 😅", "ru": "Что вы делаете, когда откладываете дела?", "starter": "When I procrastinate, I usually…"},
-    {"q": "Summer or winter? Why?", "ru": "Лето или зима? Почему?", "starter": "I prefer… because…"},
-    {"q": "What was your first English word?", "ru": "Какое было ваше первое английское слово?", "starter": "I think my first word was…"},
-    {"q": "If you had a free day tomorrow, what would you do?", "ru": "Если бы завтра был свободный день, чем бы вы занялись?", "starter": "If I had a free day, I would…"},
-    {"q": "Share an English song you love 🎵", "ru": "Поделитесь любимой песней на английском", "starter": "I love… by… because…"},
-    {"q": "What makes you feel grateful today?", "ru": "За что вы благодарны сегодня?", "starter": "Today I'm grateful for…"},
-    {"q": "What's the most spontaneous thing you've ever done?", "ru": "Самый спонтанный поступок в вашей жизни?", "starter": "Once I spontaneously…"}
-  ],
-  "mistakes": [
-    {"wrong": "I am agree with you.", "right": "I agree with you.", "why": "agree — это глагол, ему не нужен am. Как «я соглашаюсь», а не «я есть соглашаюсь»."},
-    {"wrong": "I very like this film.", "right": "I really like this film. / I like this film very much.", "why": "very не ставится перед глаголом. Используйте really перед глаголом или very much в конце."},
-    {"wrong": "He said me the truth.", "right": "He told me the truth. / He said the truth to me.", "why": "tell + кому (told me), say + что (said that…). После say нужен to: said to me."},
-    {"wrong": "I have 25 years.", "right": "I'm 25. / I'm 25 years old.", "why": "Возраст в английском — через be: I am 25. Have здесь калька с других языков."},
-    {"wrong": "Can you explain me this rule?", "right": "Can you explain this rule to me?", "why": "explain sth to sb — объяснять что-то кому-то. Без to нельзя."},
-    {"wrong": "I'm so boring today.", "right": "I'm so bored today.", "why": "bored — мне скучно. boring — я скучный (как человек). То же: interested / interesting, tired / tiring."},
-    {"wrong": "Thank you for the informations!", "right": "Thank you for the information!", "why": "information — неисчисляемое: никаких -s и an. Нужно «одна информация» — a piece of information."},
-    {"wrong": "It depends from the weather.", "right": "It depends on the weather.", "why": "depend on — устойчивое сочетание. Никаких from или of."},
-    {"wrong": "How is it called in English?", "right": "What is it called in English?", "why": "В английском спрашиваем «Что это называется?» — What, а не How."},
-    {"wrong": "Let's make a photo!", "right": "Let's take a photo!", "why": "Фото в английском «берут»: take a photo / take a picture."},
-    {"wrong": "I'll call you when I will arrive.", "right": "I'll call you when I arrive.", "why": "После when, if, as soon as, before, after будущее время передаётся через Present Simple."},
-    {"wrong": "It's depends.", "right": "It depends.", "why": "It's = It is. «It is depends» — два сказуемых сразу. Достаточно depends."},
-    {"wrong": "I listen music every day.", "right": "I listen to music every day.", "why": "listen to sth — после listen всегда to. Но: I'm listening! (без объекта — без to)."},
-    {"wrong": "I didn't went there.", "right": "I didn't go there.", "why": "После did / didn't — только первая форма глагола. Прошедшее время уже «живёт» в did."}
-  ],
-  "promos": [
-    {"text": "📘 <b>English Grammar Guide</b> by @English_with_Yev\n\nУстали путаться во временах? Все времена английского — в одном красивом справочнике: понятные схемы, примеры и упражнения с ответами.\n\n👉 Подробности — в закреплённом сообщении канала или напишите мне в личку!", "button": "", "url": ""},
-    {"text": "🗂 <b>Копилка учителя</b>\n\nГотовые планы уроков для всех уровней — от Starter до Advanced. Берите и проводите: задания, игры, разговорные темы.\n\n✉️ Хотите доступ? Напишите мне в личку канала!", "button": "", "url": ""},
-    {"text": "🤖 <b>Хотите практиковать английский каждый день?</b>\n\nSmall Talk Buddy — бот-собеседник: пишите или отправляйте голосовые на английском, он ответит и поддержит разговор 💬\n\nНе бойтесь ошибок — просто начните!", "button": "Поговорить с ботом", "url": "https://t.me/Buddyevbot"},
-    {"text": "📒 <b>Конспекты Spotlight 3–8</b>\n\nКратко и наглядно по каждому модулю: слова, грамматика, правила. Удобно для школьников, родителей и учителей.\n\n✉️ Пишите в личку канала — расскажу подробнее!", "button": "", "url": ""},
-    {"text": "🗣 <b>Разговорный клуб English with Yev</b>\n\nХотите заговорить свободно? Приходите в разговорный клуб: живое общение, интересные темы и поддержка преподавателя с опытом 10+ лет.\n\n✉️ Записывайтесь в личке канала!", "button": "", "url": ""}
-  ]
+ "words": [
+  {
+   "word": "resilient",
+   "ipa": "/rɪˈzɪliənt/",
+   "pos": "adj.",
+   "ru": "стойкий, быстро восстанавливающийся",
+   "meaning": "able to recover quickly from difficulties",
+   "examples": [
+    [
+     "Kids are surprisingly resilient.",
+     "Дети на удивление стойкие."
+    ],
+    [
+     "She stayed resilient after losing her job.",
+     "Она не сломалась после потери работы."
+    ]
+   ],
+   "collocations": "emotionally resilient, a resilient economy"
+  },
+  {
+   "word": "overwhelmed",
+   "ipa": "/ˌəʊvəˈwelmd/",
+   "pos": "adj.",
+   "ru": "перегруженный, ошеломлённый",
+   "meaning": "feeling that there is too much to deal with",
+   "examples": [
+    [
+     "I feel a bit overwhelmed at work this week.",
+     "На этой неделе я немного зашиваюсь на работе."
+    ],
+    [
+     "He was overwhelmed by all the kind messages.",
+     "Его ошеломили все эти добрые сообщения."
+    ]
+   ],
+   "collocations": "feel overwhelmed, completely overwhelmed"
+  },
+  {
+   "word": "reluctant",
+   "ipa": "/rɪˈlʌktənt/",
+   "pos": "adj.",
+   "ru": "неохотный, не желающий",
+   "meaning": "not wanting to do something",
+   "examples": [
+    [
+     "She was reluctant to speak English at first.",
+     "Сначала она не хотела говорить по-английски."
+    ],
+    [
+     "I'm reluctant to change my plans.",
+     "Мне не хочется менять планы."
+    ]
+   ],
+   "collocations": "be reluctant to do sth, a reluctant hero"
+  },
+  {
+   "word": "genuine",
+   "ipa": "/ˈdʒenjuɪn/",
+   "pos": "adj.",
+   "ru": "искренний, подлинный",
+   "meaning": "real and sincere, not fake",
+   "examples": [
+    [
+     "Her smile was genuine.",
+     "Её улыбка была искренней."
+    ],
+    [
+     "Is this bag genuine leather?",
+     "Эта сумка из натуральной кожи?"
+    ]
+   ],
+   "collocations": "genuine interest, genuine leather"
+  },
+  {
+   "word": "thrive",
+   "ipa": "/θraɪv/",
+   "pos": "verb",
+   "ru": "процветать, расцветать",
+   "meaning": "to grow, develop or be successful",
+   "examples": [
+    [
+     "Some people thrive under pressure.",
+     "Некоторые люди расцветают под давлением."
+    ],
+    [
+     "Plants thrive in this climate.",
+     "Растения отлично растут в этом климате."
+    ]
+   ],
+   "collocations": "thrive on challenges, a thriving business"
+  },
+  {
+   "word": "cosy",
+   "ipa": "/ˈkəʊzi/",
+   "pos": "adj.",
+   "ru": "уютный",
+   "meaning": "warm, comfortable and relaxing",
+   "examples": [
+    [
+     "We found a cosy café near the beach.",
+     "Мы нашли уютное кафе у пляжа."
+    ],
+    [
+     "Her flat is small but cosy.",
+     "Её квартира маленькая, но уютная."
+    ]
+   ],
+   "collocations": "a cosy evening, nice and cosy (US: cozy)"
+  },
+  {
+   "word": "awkward",
+   "ipa": "/ˈɔːkwəd/",
+   "pos": "adj.",
+   "ru": "неловкий, неудобный",
+   "meaning": "making you feel embarrassed or uncomfortable",
+   "examples": [
+    [
+     "There was an awkward silence.",
+     "Повисла неловкая тишина."
+    ],
+    [
+     "Sorry, this is a bit awkward…",
+     "Извини, это немного неловко…"
+    ]
+   ],
+   "collocations": "an awkward moment, feel awkward"
+  },
+  {
+   "word": "eager",
+   "ipa": "/ˈiːɡə/",
+   "pos": "adj.",
+   "ru": "жаждущий, полный энтузиазма",
+   "meaning": "wanting to do something very much",
+   "examples": [
+    [
+     "The students are eager to learn.",
+     "Ученики горят желанием учиться."
+    ],
+    [
+     "I'm eager to hear your news!",
+     "Не терпится услышать твои новости!"
+    ]
+   ],
+   "collocations": "eager to do sth, an eager learner"
+  },
+  {
+   "word": "procrastinate",
+   "ipa": "/prəˈkræstɪneɪt/",
+   "pos": "verb",
+   "ru": "откладывать на потом",
+   "meaning": "to delay doing something you should do",
+   "examples": [
+    [
+     "Stop procrastinating and start your homework!",
+     "Хватит откладывать, садись за домашку!"
+    ],
+    [
+     "I always procrastinate on Mondays.",
+     "По понедельникам я вечно всё откладываю."
+    ]
+   ],
+   "collocations": "tend to procrastinate, stop procrastinating"
+  },
+  {
+   "word": "straightforward",
+   "ipa": "/ˌstreɪtˈfɔːwəd/",
+   "pos": "adj.",
+   "ru": "простой, понятный; прямой",
+   "meaning": "easy to understand or do; honest",
+   "examples": [
+    [
+     "The instructions are pretty straightforward.",
+     "Инструкция довольно простая."
+    ],
+    [
+     "He's a straightforward person.",
+     "Он прямой человек."
+    ]
+   ],
+   "collocations": "fairly straightforward, a straightforward answer"
+  },
+  {
+   "word": "wander",
+   "ipa": "/ˈwɒndə/",
+   "pos": "verb",
+   "ru": "бродить, гулять без цели",
+   "meaning": "to walk around slowly without a clear purpose",
+   "examples": [
+    [
+     "We wandered around the old town.",
+     "Мы бродили по старому городу."
+    ],
+    [
+     "My mind keeps wandering.",
+     "Мои мысли всё время уплывают."
+    ]
+   ],
+   "collocations": "wander around, wander off"
+  },
+  {
+   "word": "grateful",
+   "ipa": "/ˈɡreɪtfl/",
+   "pos": "adj.",
+   "ru": "благодарный",
+   "meaning": "feeling or showing thanks",
+   "examples": [
+    [
+     "I'm so grateful for your help.",
+     "Я так благодарна за твою помощь."
+    ],
+    [
+     "We should be grateful for small things.",
+     "Стоит быть благодарными за мелочи."
+    ]
+   ],
+   "collocations": "grateful for sth, deeply grateful"
+  },
+  {
+   "word": "hassle",
+   "ipa": "/ˈhæsl/",
+   "pos": "noun",
+   "ru": "морока, хлопоты",
+   "meaning": "something annoying that takes time and effort",
+   "examples": [
+    [
+     "Getting a visa is such a hassle.",
+     "Получение визы — такая морока."
+    ],
+    [
+     "No hassle, I'll do it.",
+     "Без проблем, сделаю."
+    ]
+   ],
+   "collocations": "a real hassle, hassle-free"
+  },
+  {
+   "word": "spontaneous",
+   "ipa": "/spɒnˈteɪniəs/",
+   "pos": "adj.",
+   "ru": "спонтанный",
+   "meaning": "done because you suddenly want to, without planning",
+   "examples": [
+    [
+     "We took a spontaneous trip to the mountains.",
+     "Мы спонтанно съездили в горы."
+    ],
+    [
+     "She's fun and spontaneous.",
+     "Она весёлая и спонтанная."
+    ]
+   ],
+   "collocations": "a spontaneous decision, spontaneous trip"
+  },
+  {
+   "word": "curious",
+   "ipa": "/ˈkjʊəriəs/",
+   "pos": "adj.",
+   "ru": "любопытный",
+   "meaning": "wanting to know or learn about something",
+   "examples": [
+    [
+     "Kids are naturally curious.",
+     "Дети от природы любопытны."
+    ],
+    [
+     "I'm curious about your trip!",
+     "Мне интересно узнать о твоей поездке!"
+    ]
+   ],
+   "collocations": "curious about sth, just curious"
+  },
+  {
+   "word": "exhausted",
+   "ipa": "/ɪɡˈzɔːstɪd/",
+   "pos": "adj.",
+   "ru": "измотанный",
+   "meaning": "extremely tired",
+   "examples": [
+    [
+     "I'm exhausted after the flight.",
+     "Я вымоталась после перелёта."
+    ],
+    [
+     "She looked exhausted.",
+     "Она выглядела измотанной."
+    ]
+   ],
+   "collocations": "completely exhausted, mentally exhausted"
+  },
+  {
+   "word": "affordable",
+   "ipa": "/əˈfɔːdəbl/",
+   "pos": "adj.",
+   "ru": "доступный (по цене)",
+   "meaning": "cheap enough for most people",
+   "examples": [
+    [
+     "We found an affordable hotel.",
+     "Мы нашли недорогой отель."
+    ],
+    [
+     "Fresh fruit is very affordable here.",
+     "Свежие фрукты здесь очень доступные."
+    ]
+   ],
+   "collocations": "affordable prices, affordable housing"
+  },
+  {
+   "word": "delighted",
+   "ipa": "/dɪˈlaɪtɪd/",
+   "pos": "adj.",
+   "ru": "очень довольный, в восторге",
+   "meaning": "very pleased",
+   "examples": [
+    [
+     "I'm delighted to meet you.",
+     "Очень рада познакомиться."
+    ],
+    [
+     "She was delighted with the gift.",
+     "Она была в восторге от подарка."
+    ]
+   ],
+   "collocations": "delighted to do sth, absolutely delighted"
+  },
+  {
+   "word": "cancel",
+   "ipa": "/ˈkænsl/",
+   "pos": "verb",
+   "ru": "отменять",
+   "meaning": "to decide that an event will not happen",
+   "examples": [
+    [
+     "They cancelled the flight.",
+     "Они отменили рейс."
+    ],
+    [
+     "Can I cancel my booking?",
+     "Могу я отменить бронь?"
+    ]
+   ],
+   "collocations": "cancel a meeting, cancel an order"
+  },
+  {
+   "word": "crowded",
+   "ipa": "/ˈkraʊdɪd/",
+   "pos": "adj.",
+   "ru": "переполненный, людный",
+   "meaning": "full of people",
+   "examples": [
+    [
+     "The beach is crowded on Sundays.",
+     "По воскресеньям на пляже много народу."
+    ],
+    [
+     "I hate crowded buses.",
+     "Ненавижу переполненные автобусы."
+    ]
+   ],
+   "collocations": "crowded streets, overcrowded"
+  },
+  {
+   "word": "brave",
+   "ipa": "/breɪv/",
+   "pos": "adj.",
+   "ru": "смелый",
+   "meaning": "not afraid of danger or difficulty",
+   "examples": [
+    [
+     "That was a brave decision.",
+     "Это было смелое решение."
+    ],
+    [
+     "Be brave and just say it!",
+     "Будь смелее и просто скажи!"
+    ]
+   ],
+   "collocations": "brave enough to do sth"
+  },
+  {
+   "word": "explore",
+   "ipa": "/ɪkˈsplɔː/",
+   "pos": "verb",
+   "ru": "исследовать, изучать",
+   "meaning": "to travel around a place to learn about it",
+   "examples": [
+    [
+     "Let's explore the old town.",
+     "Давай исследуем старый город."
+    ],
+    [
+     "I love exploring new cafés.",
+     "Обожаю открывать новые кафе."
+    ]
+   ],
+   "collocations": "explore the area, explore options"
+  },
+  {
+   "word": "improve",
+   "ipa": "/ɪmˈpruːv/",
+   "pos": "verb",
+   "ru": "улучшать(ся)",
+   "meaning": "to get better or make something better",
+   "examples": [
+    [
+     "I want to improve my English.",
+     "Я хочу улучшить свой английский."
+    ],
+    [
+     "Your pronunciation has improved!",
+     "Твоё произношение улучшилось!"
+    ]
+   ],
+   "collocations": "improve skills, greatly improve"
+  },
+  {
+   "word": "deadline",
+   "ipa": "/ˈdedlaɪn/",
+   "pos": "noun",
+   "ru": "крайний срок",
+   "meaning": "a time by which something must be done",
+   "examples": [
+    [
+     "The deadline is on Friday.",
+     "Крайний срок — в пятницу."
+    ],
+    [
+     "I always miss deadlines.",
+     "Я вечно срываю сроки."
+    ]
+   ],
+   "collocations": "meet a deadline, miss a deadline"
+  },
+  {
+   "word": "convenient",
+   "ipa": "/kənˈviːniənt/",
+   "pos": "adj.",
+   "ru": "удобный",
+   "meaning": "easy, useful or suitable for you",
+   "examples": [
+    [
+     "Is 5 pm convenient for you?",
+     "Тебе удобно в 5 вечера?"
+    ],
+    [
+     "The flat is in a convenient location.",
+     "Квартира удобно расположена."
+    ]
+   ],
+   "collocations": "convenient time, convenient for sb"
+  },
+  {
+   "word": "annoying",
+   "ipa": "/əˈnɔɪɪŋ/",
+   "pos": "adj.",
+   "ru": "раздражающий",
+   "meaning": "making you a little angry",
+   "examples": [
+    [
+     "That noise is so annoying!",
+     "Этот шум так раздражает!"
+    ],
+    [
+     "He has an annoying habit.",
+     "У него раздражающая привычка."
+    ]
+   ],
+   "collocations": "really annoying, annoying habit"
+  },
+  {
+   "word": "apologise",
+   "ipa": "/əˈpɒlədʒaɪz/",
+   "pos": "verb",
+   "ru": "извиняться",
+   "meaning": "to say sorry",
+   "examples": [
+    [
+     "I apologise for being late.",
+     "Прошу прощения за опоздание."
+    ],
+    [
+     "You should apologise to her.",
+     "Тебе стоит перед ней извиниться."
+    ]
+   ],
+   "collocations": "apologise for sth, apologise to sb (US: apologize)"
+  },
+  {
+   "word": "borrow",
+   "ipa": "/ˈbɒrəʊ/",
+   "pos": "verb",
+   "ru": "брать взаймы",
+   "meaning": "to take something that you will give back",
+   "examples": [
+    [
+     "Can I borrow your pen?",
+     "Можно одолжить твою ручку?"
+    ],
+    [
+     "I borrowed a book from Anna.",
+     "Я взяла книгу у Анны."
+    ]
+   ],
+   "collocations": "borrow sth from sb (≠ lend)"
+  },
+  {
+   "word": "lend",
+   "ipa": "/lend/",
+   "pos": "verb",
+   "ru": "давать взаймы",
+   "meaning": "to give something that will be returned",
+   "examples": [
+    [
+     "Could you lend me 100 dollars?",
+     "Не одолжишь мне 100 долларов?"
+    ],
+    [
+     "I lent him my car.",
+     "Я одолжила ему машину."
+    ]
+   ],
+   "collocations": "lend sb sth, lend a hand"
+  },
+  {
+   "word": "journey",
+   "ipa": "/ˈdʒɜːni/",
+   "pos": "noun",
+   "ru": "поездка, путь",
+   "meaning": "the act of travelling from one place to another",
+   "examples": [
+    [
+     "How was your journey?",
+     "Как доехали?"
+    ],
+    [
+     "It's a long journey to Hanoi.",
+     "До Ханоя долгий путь."
+    ]
+   ],
+   "collocations": "a long journey, safe journey"
+  },
+  {
+   "word": "ordinary",
+   "ipa": "/ˈɔːdnri/",
+   "pos": "adj.",
+   "ru": "обычный",
+   "meaning": "normal, not special",
+   "examples": [
+    [
+     "It was just an ordinary day.",
+     "Это был самый обычный день."
+    ],
+    [
+     "She's not an ordinary teacher!",
+     "Она необычная учительница!"
+    ]
+   ],
+   "collocations": "ordinary people, out of the ordinary"
+  },
+  {
+   "word": "nervous",
+   "ipa": "/ˈnɜːvəs/",
+   "pos": "adj.",
+   "ru": "нервничающий, взволнованный",
+   "meaning": "worried and a bit afraid",
+   "examples": [
+    [
+     "I'm nervous about the exam.",
+     "Я нервничаю из-за экзамена."
+    ],
+    [
+     "Don't be nervous, you'll be fine.",
+     "Не волнуйся, всё будет хорошо."
+    ]
+   ],
+   "collocations": "feel nervous, nervous about sth"
+  },
+  {
+   "word": "polite",
+   "ipa": "/pəˈlaɪt/",
+   "pos": "adj.",
+   "ru": "вежливый",
+   "meaning": "behaving with good manners",
+   "examples": [
+    [
+     "Be polite to the waiter.",
+     "Будь вежлив с официантом."
+    ],
+    [
+     "It's polite to say 'please'.",
+     "Вежливо говорить «пожалуйста»."
+    ]
+   ],
+   "collocations": "polite request, it's polite to…"
+  },
+  {
+   "word": "rush",
+   "ipa": "/rʌʃ/",
+   "pos": "verb",
+   "ru": "спешить, торопиться",
+   "meaning": "to move or do something very quickly",
+   "examples": [
+    [
+     "Don't rush, we have time.",
+     "Не спеши, у нас есть время."
+    ],
+    [
+     "I rushed to the airport.",
+     "Я помчалась в аэропорт."
+    ]
+   ],
+   "collocations": "rush hour, in a rush"
+  },
+  {
+   "word": "suggest",
+   "ipa": "/səˈdʒest/",
+   "pos": "verb",
+   "ru": "предлагать",
+   "meaning": "to give an idea for others to consider",
+   "examples": [
+    [
+     "I suggest we take a taxi.",
+     "Предлагаю взять такси."
+    ],
+    [
+     "What do you suggest?",
+     "Что ты предлагаешь?"
+    ]
+   ],
+   "collocations": "suggest doing sth, suggest that…"
+  },
+  {
+   "word": "weird",
+   "ipa": "/wɪəd/",
+   "pos": "adj.",
+   "ru": "странный",
+   "meaning": "very strange or unusual",
+   "examples": [
+    [
+     "That's a weird question.",
+     "Странный вопрос."
+    ],
+    [
+     "I had a weird dream.",
+     "Мне приснился странный сон."
+    ]
+   ],
+   "collocations": "a bit weird, weird feeling"
+  },
+  {
+   "word": "reliable",
+   "ipa": "/rɪˈlaɪəbl/",
+   "pos": "adj.",
+   "ru": "надёжный",
+   "meaning": "that you can trust",
+   "examples": [
+    [
+     "He's a reliable friend.",
+     "Он надёжный друг."
+    ],
+    [
+     "Is this taxi app reliable?",
+     "Это приложение такси надёжное?"
+    ]
+   ],
+   "collocations": "reliable source, totally reliable"
+  },
+  {
+   "word": "struggle",
+   "ipa": "/ˈstrʌɡl/",
+   "pos": "verb",
+   "ru": "с трудом справляться",
+   "meaning": "to try hard to do something difficult",
+   "examples": [
+    [
+     "I struggle with phrasal verbs.",
+     "Мне тяжело даются фразовые глаголы."
+    ],
+    [
+     "He struggled to find a job.",
+     "Он с трудом нашёл работу."
+    ]
+   ],
+   "collocations": "struggle with sth, struggle to do sth"
+  },
+  {
+   "word": "achieve",
+   "ipa": "/əˈtʃiːv/",
+   "pos": "verb",
+   "ru": "достигать",
+   "meaning": "to succeed in doing something",
+   "examples": [
+    [
+     "You can achieve anything!",
+     "Ты можешь достичь чего угодно!"
+    ],
+    [
+     "She achieved her goal.",
+     "Она достигла своей цели."
+    ]
+   ],
+   "collocations": "achieve a goal, achieve success"
+  },
+  {
+   "word": "budget",
+   "ipa": "/ˈbʌdʒɪt/",
+   "pos": "noun",
+   "ru": "бюджет",
+   "meaning": "the amount of money you can spend",
+   "examples": [
+    [
+     "What's your budget for the trip?",
+     "Какой у тебя бюджет на поездку?"
+    ],
+    [
+     "We're on a tight budget.",
+     "У нас ограниченный бюджет."
+    ]
+   ],
+   "collocations": "tight budget, low-budget"
+  },
+  {
+   "word": "chilly",
+   "ipa": "/ˈtʃɪli/",
+   "pos": "adj.",
+   "ru": "прохладный, зябкий",
+   "meaning": "a bit cold",
+   "examples": [
+    [
+     "It's chilly this morning.",
+     "Сегодня утром прохладно."
+    ],
+    [
+     "Take a jacket, it gets chilly.",
+     "Возьми куртку, будет прохладно."
+    ]
+   ],
+   "collocations": "a chilly evening, feel chilly"
+  },
+  {
+   "word": "gorgeous",
+   "ipa": "/ˈɡɔːdʒəs/",
+   "pos": "adj.",
+   "ru": "великолепный, роскошный",
+   "meaning": "very beautiful",
+   "examples": [
+    [
+     "What a gorgeous view!",
+     "Какой великолепный вид!"
+    ],
+    [
+     "You look gorgeous!",
+     "Ты выглядишь потрясающе!"
+    ]
+   ],
+   "collocations": "absolutely gorgeous, gorgeous weather"
+  },
+  {
+   "word": "handy",
+   "ipa": "/ˈhændi/",
+   "pos": "adj.",
+   "ru": "удобный, полезный",
+   "meaning": "useful and easy to use",
+   "examples": [
+    [
+     "This app is really handy.",
+     "Это приложение очень полезное."
+    ],
+    [
+     "Keep some cash handy.",
+     "Держи немного наличных под рукой."
+    ]
+   ],
+   "collocations": "come in handy, handy tip"
+  },
+  {
+   "word": "hesitate",
+   "ipa": "/ˈhezɪteɪt/",
+   "pos": "verb",
+   "ru": "колебаться, сомневаться",
+   "meaning": "to pause before doing something",
+   "examples": [
+    [
+     "Don't hesitate to ask me.",
+     "Не стесняйтесь спрашивать."
+    ],
+    [
+     "She hesitated before answering.",
+     "Она замешкалась перед ответом."
+    ]
+   ],
+   "collocations": "don't hesitate to…, without hesitation"
+  },
+  {
+   "word": "mess",
+   "ipa": "/mes/",
+   "pos": "noun",
+   "ru": "беспорядок",
+   "meaning": "a dirty or untidy state",
+   "examples": [
+    [
+     "Sorry about the mess!",
+     "Извини за беспорядок!"
+    ],
+    [
+     "My room is a mess.",
+     "У меня в комнате бардак."
+    ]
+   ],
+   "collocations": "make a mess, in a mess"
+  },
+  {
+   "word": "opportunity",
+   "ipa": "/ˌɒpəˈtjuːnəti/",
+   "pos": "noun",
+   "ru": "возможность",
+   "meaning": "a chance to do something",
+   "examples": [
+    [
+     "It's a great opportunity!",
+     "Это отличная возможность!"
+    ],
+    [
+     "Don't miss this opportunity.",
+     "Не упусти эту возможность."
+    ]
+   ],
+   "collocations": "take an opportunity, job opportunity"
+  },
+  {
+   "word": "patient",
+   "ipa": "/ˈpeɪʃnt/",
+   "pos": "adj.",
+   "ru": "терпеливый",
+   "meaning": "able to wait calmly",
+   "examples": [
+    [
+     "Be patient with yourself.",
+     "Будьте терпеливы к себе."
+    ],
+    [
+     "Teachers need to be patient.",
+     "Учителям нужно терпение."
+    ]
+   ],
+   "collocations": "patient with sb (n. patience)"
+  },
+  {
+   "word": "realise",
+   "ipa": "/ˈriːəlaɪz/",
+   "pos": "verb",
+   "ru": "осознавать, понимать",
+   "meaning": "to start to understand something",
+   "examples": [
+    [
+     "I didn't realise it was so late.",
+     "Я не заметила, что уже так поздно."
+    ],
+    [
+     "She realised she was wrong.",
+     "Она поняла, что была неправа."
+    ]
+   ],
+   "collocations": "suddenly realise (US: realize)"
+  },
+  {
+   "word": "remind",
+   "ipa": "/rɪˈmaɪnd/",
+   "pos": "verb",
+   "ru": "напоминать",
+   "meaning": "to help someone remember",
+   "examples": [
+    [
+     "Remind me to call mum.",
+     "Напомни мне позвонить маме."
+    ],
+    [
+     "You remind me of my sister.",
+     "Ты напоминаешь мне сестру."
+    ]
+   ],
+   "collocations": "remind sb to do sth, remind sb of sb"
+  },
+  {
+   "word": "selfish",
+   "ipa": "/ˈselfɪʃ/",
+   "pos": "adj.",
+   "ru": "эгоистичный",
+   "meaning": "caring only about yourself",
+   "examples": [
+    [
+     "Don't be so selfish!",
+     "Не будь таким эгоистом!"
+    ],
+    [
+     "It was a selfish decision.",
+     "Это было эгоистичное решение."
+    ]
+   ],
+   "collocations": "a bit selfish, selfish behaviour"
+  },
+  {
+   "word": "stunning",
+   "ipa": "/ˈstʌnɪŋ/",
+   "pos": "adj.",
+   "ru": "потрясающий",
+   "meaning": "extremely beautiful or impressive",
+   "examples": [
+    [
+     "The sunset was stunning.",
+     "Закат был потрясающим."
+    ],
+    [
+     "She wore a stunning dress.",
+     "На ней было потрясающее платье."
+    ]
+   ],
+   "collocations": "stunning views, absolutely stunning"
+  },
+  {
+   "word": "tidy",
+   "ipa": "/ˈtaɪdi/",
+   "pos": "adj. / verb",
+   "ru": "аккуратный; убирать",
+   "meaning": "neat and in order; to make neat",
+   "examples": [
+    [
+     "Please tidy your room.",
+     "Пожалуйста, прибери комнату."
+    ],
+    [
+     "Her desk is always tidy.",
+     "У неё всегда порядок на столе."
+    ]
+   ],
+   "collocations": "tidy up, neat and tidy"
+  },
+  {
+   "word": "upset",
+   "ipa": "/ʌpˈset/",
+   "pos": "adj.",
+   "ru": "расстроенный",
+   "meaning": "unhappy or worried",
+   "examples": [
+    [
+     "She was upset about the news.",
+     "Её расстроила новость."
+    ],
+    [
+     "Don't be upset, it's okay.",
+     "Не расстраивайся, всё нормально."
+    ]
+   ],
+   "collocations": "upset about sth, get upset"
+  },
+  {
+   "word": "worth",
+   "ipa": "/wɜːθ/",
+   "pos": "adj.",
+   "ru": "стоящий",
+   "meaning": "good enough to justify the effort or cost",
+   "examples": [
+    [
+     "The film is worth watching.",
+     "Фильм стоит посмотреть."
+    ],
+    [
+     "Is it worth the money?",
+     "Оно того стоит?"
+    ]
+   ],
+   "collocations": "worth doing sth, worth it"
+  },
+  {
+   "word": "anxious",
+   "ipa": "/ˈæŋkʃəs/",
+   "pos": "adj.",
+   "ru": "тревожный, обеспокоенный",
+   "meaning": "worried and nervous",
+   "examples": [
+    [
+     "I feel anxious before flights.",
+     "Перед полётами я тревожусь."
+    ],
+    [
+     "She's anxious to hear the results.",
+     "Ей не терпится узнать результаты."
+    ]
+   ],
+   "collocations": "anxious about sth, anxious to do sth"
+  },
+  {
+   "word": "bargain",
+   "ipa": "/ˈbɑːɡɪn/",
+   "pos": "noun",
+   "ru": "выгодная покупка",
+   "meaning": "something bought for less than its value",
+   "examples": [
+    [
+     "This dress was a bargain!",
+     "Это платье — настоящая находка!"
+    ],
+    [
+     "I love hunting for bargains.",
+     "Обожаю охотиться за скидками."
+    ]
+   ],
+   "collocations": "a real bargain, bargain hunter"
+  },
+  {
+   "word": "common",
+   "ipa": "/ˈkɒmən/",
+   "pos": "adj.",
+   "ru": "распространённый, общий",
+   "meaning": "happening often; shared",
+   "examples": [
+    [
+     "It's a common mistake.",
+     "Это частая ошибка."
+    ],
+    [
+     "We have a lot in common.",
+     "У нас много общего."
+    ]
+   ],
+   "collocations": "in common, common sense"
+  },
+  {
+   "word": "decent",
+   "ipa": "/ˈdiːsnt/",
+   "pos": "adj.",
+   "ru": "приличный, достойный",
+   "meaning": "good enough; acceptable",
+   "examples": [
+    [
+     "We need a decent coffee.",
+     "Нам нужен нормальный кофе."
+    ],
+    [
+     "He's a decent guy.",
+     "Он порядочный парень."
+    ]
+   ],
+   "collocations": "decent salary, decent food"
+  },
+  {
+   "word": "embarrassed",
+   "ipa": "/ɪmˈbærəst/",
+   "pos": "adj.",
+   "ru": "смущённый",
+   "meaning": "feeling shy or ashamed",
+   "examples": [
+    [
+     "I was so embarrassed!",
+     "Мне было так неловко!"
+    ],
+    [
+     "Don't be embarrassed to make mistakes.",
+     "Не стесняйся ошибаться."
+    ]
+   ],
+   "collocations": "feel embarrassed (≠ embarrassing)"
+  },
+  {
+   "word": "fancy",
+   "ipa": "/ˈfænsi/",
+   "pos": "verb / adj.",
+   "ru": "хотеть (разг.); модный",
+   "meaning": "to want something (UK); expensive and stylish",
+   "examples": [
+    [
+     "Do you fancy a coffee?",
+     "Хочешь кофе?"
+    ],
+    [
+     "We went to a fancy restaurant.",
+     "Мы сходили в шикарный ресторан."
+    ]
+   ],
+   "collocations": "fancy doing sth, fancy hotel"
+  },
+  {
+   "word": "gather",
+   "ipa": "/ˈɡæðə/",
+   "pos": "verb",
+   "ru": "собирать(ся)",
+   "meaning": "to come or bring together",
+   "examples": [
+    [
+     "Let's gather on the beach at 6.",
+     "Давайте соберёмся на пляже в 6."
+    ],
+    [
+     "She gathered her things and left.",
+     "Она собрала вещи и ушла."
+    ]
+   ],
+   "collocations": "gather information, gather around"
+  },
+  {
+   "word": "hilarious",
+   "ipa": "/hɪˈleəriəs/",
+   "pos": "adj.",
+   "ru": "уморительный",
+   "meaning": "extremely funny",
+   "examples": [
+    [
+     "That video was hilarious!",
+     "Это видео было уморительным!"
+    ],
+    [
+     "He told a hilarious story.",
+     "Он рассказал уморительную историю."
+    ]
+   ],
+   "collocations": "absolutely hilarious"
+  },
+  {
+   "word": "ignore",
+   "ipa": "/ɪɡˈnɔː/",
+   "pos": "verb",
+   "ru": "игнорировать",
+   "meaning": "to pay no attention to",
+   "examples": [
+    [
+     "Just ignore him.",
+     "Просто не обращай на него внимания."
+    ],
+    [
+     "Don't ignore my messages!",
+     "Не игнорируй мои сообщения!"
+    ]
+   ],
+   "collocations": "ignore advice, completely ignore"
+  },
+  {
+   "word": "jealous",
+   "ipa": "/ˈdʒeləs/",
+   "pos": "adj.",
+   "ru": "ревнивый, завистливый",
+   "meaning": "unhappy because someone has something you want",
+   "examples": [
+    [
+     "I'm so jealous of your trip!",
+     "Я так завидую твоей поездке!"
+    ],
+    [
+     "He gets jealous easily.",
+     "Он легко ревнует."
+    ]
+   ],
+   "collocations": "jealous of sb/sth"
+  },
+  {
+   "word": "keen",
+   "ipa": "/kiːn/",
+   "pos": "adj.",
+   "ru": "увлечённый, жаждущий",
+   "meaning": "very interested or eager",
+   "examples": [
+    [
+     "She's keen on yoga.",
+     "Она увлекается йогой."
+    ],
+    [
+     "I'm not keen on spicy food.",
+     "Я не большой фанат острого."
+    ]
+   ],
+   "collocations": "keen on sth, keen to do sth"
+  },
+  {
+   "word": "lazy",
+   "ipa": "/ˈleɪzi/",
+   "pos": "adj.",
+   "ru": "ленивый",
+   "meaning": "not wanting to work or be active",
+   "examples": [
+    [
+     "I had a lazy Sunday.",
+     "У меня было ленивое воскресенье."
+    ],
+    [
+     "Don't be lazy — practise!",
+     "Не ленись — практикуйся!"
+    ]
+   ],
+   "collocations": "lazy morning, feel lazy"
+  },
+  {
+   "word": "mention",
+   "ipa": "/ˈmenʃn/",
+   "pos": "verb",
+   "ru": "упоминать",
+   "meaning": "to talk about something briefly",
+   "examples": [
+    [
+     "She mentioned your name.",
+     "Она упомянула твоё имя."
+    ],
+    [
+     "Don't mention it!",
+     "Не за что!"
+    ]
+   ],
+   "collocations": "as mentioned, not to mention"
+  },
+  {
+   "word": "neighbourhood",
+   "ipa": "/ˈneɪbəhʊd/",
+   "pos": "noun",
+   "ru": "район, окрестности",
+   "meaning": "the area around your home",
+   "examples": [
+    [
+     "It's a quiet neighbourhood.",
+     "Это тихий район."
+    ],
+    [
+     "Are there cafés in your neighbourhood?",
+     "В вашем районе есть кафе?"
+    ]
+   ],
+   "collocations": "in the neighbourhood (US: neighborhood)"
+  },
+  {
+   "word": "obvious",
+   "ipa": "/ˈɒbviəs/",
+   "pos": "adj.",
+   "ru": "очевидный",
+   "meaning": "easy to see or understand",
+   "examples": [
+    [
+     "The answer is obvious.",
+     "Ответ очевиден."
+    ],
+    [
+     "It's obvious that she likes you.",
+     "Очевидно, что ты ей нравишься."
+    ]
+   ],
+   "collocations": "pretty obvious, state the obvious"
+  },
+  {
+   "word": "persuade",
+   "ipa": "/pəˈsweɪd/",
+   "pos": "verb",
+   "ru": "убеждать, уговаривать",
+   "meaning": "to make someone agree to do something",
+   "examples": [
+    [
+     "I persuaded him to come.",
+     "Я уговорила его прийти."
+    ],
+    [
+     "Try to persuade her.",
+     "Попробуй её убедить."
+    ]
+   ],
+   "collocations": "persuade sb to do sth"
+  },
+  {
+   "word": "queue",
+   "ipa": "/kjuː/",
+   "pos": "noun / verb",
+   "ru": "очередь; стоять в очереди",
+   "meaning": "a line of people waiting",
+   "examples": [
+    [
+     "There was a long queue.",
+     "Была длинная очередь."
+    ],
+    [
+     "We queued for an hour.",
+     "Мы стояли в очереди час."
+    ]
+   ],
+   "collocations": "jump the queue (US: line)"
+  },
+  {
+   "word": "rare",
+   "ipa": "/reə/",
+   "pos": "adj.",
+   "ru": "редкий",
+   "meaning": "not common",
+   "examples": [
+    [
+     "It's rare to see snow here.",
+     "Здесь редко бывает снег."
+    ],
+    [
+     "I like my steak rare.",
+     "Я люблю стейк с кровью."
+    ]
+   ],
+   "collocations": "rare opportunity, extremely rare"
+  },
+  {
+   "word": "scared",
+   "ipa": "/skeəd/",
+   "pos": "adj.",
+   "ru": "напуганный",
+   "meaning": "afraid",
+   "examples": [
+    [
+     "I'm scared of spiders.",
+     "Я боюсь пауков."
+    ],
+    [
+     "Don't be scared!",
+     "Не бойся!"
+    ]
+   ],
+   "collocations": "scared of sth, scared to death"
+  },
+  {
+   "word": "thoughtful",
+   "ipa": "/ˈθɔːtfl/",
+   "pos": "adj.",
+   "ru": "заботливый, внимательный",
+   "meaning": "kind and thinking of others",
+   "examples": [
+    [
+     "What a thoughtful gift!",
+     "Какой внимательный подарок!"
+    ],
+    [
+     "It's so thoughtful of you.",
+     "Это так заботливо с твоей стороны."
+    ]
+   ],
+   "collocations": "thoughtful of sb"
+  },
+  {
+   "word": "unique",
+   "ipa": "/juˈniːk/",
+   "pos": "adj.",
+   "ru": "уникальный",
+   "meaning": "being the only one of its kind",
+   "examples": [
+    [
+     "Every student is unique.",
+     "Каждый ученик уникален."
+    ],
+    [
+     "This place has a unique atmosphere.",
+     "У этого места особая атмосфера."
+    ]
+   ],
+   "collocations": "truly unique, unique style"
+  },
+  {
+   "word": "vivid",
+   "ipa": "/ˈvɪvɪd/",
+   "pos": "adj.",
+   "ru": "яркий",
+   "meaning": "very bright; very clear in your mind",
+   "examples": [
+    [
+     "I have vivid memories of that trip.",
+     "У меня яркие воспоминания о той поездке."
+    ],
+    [
+     "She paints in vivid colours.",
+     "Она рисует яркими красками."
+    ]
+   ],
+   "collocations": "vivid imagination, vivid colours"
+  },
+  {
+   "word": "willing",
+   "ipa": "/ˈwɪlɪŋ/",
+   "pos": "adj.",
+   "ru": "готовый, желающий",
+   "meaning": "happy to do something",
+   "examples": [
+    [
+     "Are you willing to help?",
+     "Ты готов помочь?"
+    ],
+    [
+     "She's willing to learn.",
+     "Она хочет учиться."
+    ]
+   ],
+   "collocations": "willing to do sth, more than willing"
+  },
+  {
+   "word": "adventure",
+   "ipa": "/ədˈventʃə/",
+   "pos": "noun",
+   "ru": "приключение",
+   "meaning": "an exciting experience",
+   "examples": [
+    [
+     "Life is an adventure!",
+     "Жизнь — это приключение!"
+    ],
+    [
+     "We had a real adventure in the mountains.",
+     "У нас было настоящее приключение в горах."
+    ]
+   ],
+   "collocations": "adventure travel, a sense of adventure"
+  },
+  {
+   "word": "blame",
+   "ipa": "/bleɪm/",
+   "pos": "verb",
+   "ru": "винить",
+   "meaning": "to say someone is responsible for something bad",
+   "examples": [
+    [
+     "Don't blame yourself.",
+     "Не вини себя."
+    ],
+    [
+     "He blamed the weather.",
+     "Он свалил всё на погоду."
+    ]
+   ],
+   "collocations": "blame sb for sth, take the blame"
+  },
+  {
+   "word": "calm",
+   "ipa": "/kɑːm/",
+   "pos": "adj.",
+   "ru": "спокойный",
+   "meaning": "peaceful, not worried",
+   "examples": [
+    [
+     "Stay calm and breathe.",
+     "Сохраняй спокойствие и дыши."
+    ],
+    [
+     "The sea is calm today.",
+     "Сегодня море спокойное."
+    ]
+   ],
+   "collocations": "calm down, keep calm"
+  },
+  {
+   "word": "delicious",
+   "ipa": "/dɪˈlɪʃəs/",
+   "pos": "adj.",
+   "ru": "очень вкусный",
+   "meaning": "tasting very good",
+   "examples": [
+    [
+     "This pho is delicious!",
+     "Этот фо очень вкусный!"
+    ],
+    [
+     "She makes delicious cakes.",
+     "Она печёт восхитительные торты."
+    ]
+   ],
+   "collocations": "absolutely delicious (не very delicious!)"
+  },
+  {
+   "word": "efficient",
+   "ipa": "/ɪˈfɪʃnt/",
+   "pos": "adj.",
+   "ru": "эффективный",
+   "meaning": "working well without wasting time",
+   "examples": [
+    [
+     "It's an efficient way to learn.",
+     "Это эффективный способ учиться."
+    ],
+    [
+     "She's very efficient at work.",
+     "Она очень продуктивна на работе."
+    ]
+   ],
+   "collocations": "energy-efficient, highly efficient"
+  },
+  {
+   "word": "forgive",
+   "ipa": "/fəˈɡɪv/",
+   "pos": "verb",
+   "ru": "прощать",
+   "meaning": "to stop being angry with someone",
+   "examples": [
+    [
+     "Please forgive me.",
+     "Пожалуйста, прости меня."
+    ],
+    [
+     "I forgave him a long time ago.",
+     "Я давно его простила."
+    ]
+   ],
+   "collocations": "forgive sb for sth"
+  },
+  {
+   "word": "guilty",
+   "ipa": "/ˈɡɪlti/",
+   "pos": "adj.",
+   "ru": "виноватый",
+   "meaning": "feeling bad because you did something wrong",
+   "examples": [
+    [
+     "I feel guilty about eating cake.",
+     "Мне стыдно, что я съела торт."
+    ],
+    [
+     "Don't feel guilty about resting.",
+     "Не чувствуй вины за отдых."
+    ]
+   ],
+   "collocations": "feel guilty, guilty pleasure"
+  },
+  {
+   "word": "honest",
+   "ipa": "/ˈɒnɪst/",
+   "pos": "adj.",
+   "ru": "честный",
+   "meaning": "telling the truth",
+   "examples": [
+    [
+     "To be honest, I don't like it.",
+     "Честно говоря, мне не нравится."
+    ],
+    [
+     "Thanks for being honest.",
+     "Спасибо за честность."
+    ]
+   ],
+   "collocations": "to be honest, brutally honest"
+  },
+  {
+   "word": "impressive",
+   "ipa": "/ɪmˈpresɪv/",
+   "pos": "adj.",
+   "ru": "впечатляющий",
+   "meaning": "making you admire it",
+   "examples": [
+    [
+     "Your progress is impressive!",
+     "Твой прогресс впечатляет!"
+    ],
+    [
+     "The view was impressive.",
+     "Вид был впечатляющим."
+    ]
+   ],
+   "collocations": "really impressive"
+  },
+  {
+   "word": "knowledge",
+   "ipa": "/ˈnɒlɪdʒ/",
+   "pos": "noun",
+   "ru": "знания",
+   "meaning": "information and understanding",
+   "examples": [
+    [
+     "Knowledge is power.",
+     "Знание — сила."
+    ],
+    [
+     "She has great knowledge of history.",
+     "Она прекрасно знает историю."
+    ]
+   ],
+   "collocations": "general knowledge (неисчисляемое!)"
+  },
+  {
+   "word": "lonely",
+   "ipa": "/ˈləʊnli/",
+   "pos": "adj.",
+   "ru": "одинокий",
+   "meaning": "sad because you are alone",
+   "examples": [
+    [
+     "I felt lonely in a new city.",
+     "В новом городе мне было одиноко."
+    ],
+    [
+     "Old people can feel lonely.",
+     "Пожилые люди могут чувствовать себя одиноко."
+    ]
+   ],
+   "collocations": "feel lonely (≠ alone)"
+  },
+  {
+   "word": "mood",
+   "ipa": "/muːd/",
+   "pos": "noun",
+   "ru": "настроение",
+   "meaning": "the way you feel at a time",
+   "examples": [
+    [
+     "I'm in a good mood today.",
+     "У меня сегодня хорошее настроение."
+    ],
+    [
+     "I'm not in the mood for parties.",
+     "Мне не до вечеринок."
+    ]
+   ],
+   "collocations": "in a good/bad mood, in the mood for"
+  },
+  {
+   "word": "nearby",
+   "ipa": "/ˌnɪəˈbaɪ/",
+   "pos": "adj. / adv.",
+   "ru": "поблизости",
+   "meaning": "not far away",
+   "examples": [
+    [
+     "Is there a pharmacy nearby?",
+     "Здесь поблизости есть аптека?"
+    ],
+    [
+     "We stayed at a nearby hotel.",
+     "Мы остановились в отеле неподалёку."
+    ]
+   ],
+   "collocations": "somewhere nearby"
+  },
+  {
+   "word": "overcome",
+   "ipa": "/ˌəʊvəˈkʌm/",
+   "pos": "verb",
+   "ru": "преодолевать",
+   "meaning": "to succeed in dealing with a problem",
+   "examples": [
+    [
+     "You can overcome your fear of speaking.",
+     "Вы можете преодолеть страх говорить."
+    ],
+    [
+     "She overcame many difficulties.",
+     "Она преодолела много трудностей."
+    ]
+   ],
+   "collocations": "overcome a fear, overcome obstacles"
+  },
+  {
+   "word": "frustrated",
+   "ipa": "/frʌˈstreɪtɪd/",
+   "pos": "adj.",
+   "ru": "раздосадованный",
+   "meaning": "annoyed because you can't do or change something",
+   "examples": [
+    [
+     "I get frustrated when my phone is slow.",
+     "Меня бесит, когда телефон тормозит."
+    ],
+    [
+     "She felt frustrated with her progress.",
+     "Её расстраивал её прогресс."
+    ]
+   ],
+   "collocations": "feel frustrated, frustrated with sth"
+  },
+  {
+   "word": "generous",
+   "ipa": "/ˈdʒenərəs/",
+   "pos": "adj.",
+   "ru": "щедрый",
+   "meaning": "happy to give money, time or help",
+   "examples": [
+    [
+     "Thank you, that's very generous!",
+     "Спасибо, это очень щедро!"
+    ],
+    [
+     "He's generous with his time.",
+     "Он не жалеет своего времени."
+    ]
+   ],
+   "collocations": "generous offer, generous portion"
+  },
+  {
+   "word": "confident",
+   "ipa": "/ˈkɒnfɪdənt/",
+   "pos": "adj.",
+   "ru": "уверенный",
+   "meaning": "sure about yourself and your abilities",
+   "examples": [
+    [
+     "I feel more confident speaking English now.",
+     "Теперь я увереннее говорю по-английски."
+    ],
+    [
+     "Be confident — you know this!",
+     "Будь увереннее — ты это знаешь!"
+    ]
+   ],
+   "collocations": "confident about sth, self-confident"
+  },
+  {
+   "word": "disappointed",
+   "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+   "pos": "adj.",
+   "ru": "разочарованный",
+   "meaning": "sad because something wasn't as good as you hoped",
+   "examples": [
+    [
+     "I was disappointed with the film.",
+     "Фильм меня разочаровал."
+    ],
+    [
+     "Don't be disappointed — try again!",
+     "Не расстраивайся — попробуй ещё!"
+    ]
+   ],
+   "collocations": "disappointed with/in sth"
+  },
+  {
+   "word": "ambitious",
+   "ipa": "/æmˈbɪʃəs/",
+   "pos": "adj.",
+   "ru": "амбициозный",
+   "meaning": "having a strong wish to succeed",
+   "examples": [
+    [
+     "She's young and ambitious.",
+     "Она молодая и амбициозная."
+    ],
+    [
+     "That's an ambitious plan!",
+     "Это амбициозный план!"
+    ]
+   ],
+   "collocations": "ambitious goal, highly ambitious"
+  },
+  {
+   "word": "cheerful",
+   "ipa": "/ˈtʃɪəfl/",
+   "pos": "adj.",
+   "ru": "жизнерадостный",
+   "meaning": "happy and positive",
+   "examples": [
+    [
+     "She's always so cheerful in the morning.",
+     "Она всегда такая бодрая по утрам."
+    ],
+    [
+     "The café has a cheerful atmosphere.",
+     "В кафе жизнерадостная атмосфера."
+    ]
+   ],
+   "collocations": "cheerful smile, cheerful colours"
+  },
+  {
+   "word": "clumsy",
+   "ipa": "/ˈklʌmzi/",
+   "pos": "adj.",
+   "ru": "неуклюжий",
+   "meaning": "often dropping or breaking things",
+   "examples": [
+    [
+     "I'm so clumsy — I broke another cup!",
+     "Я такая неуклюжая — разбила ещё одну чашку!"
+    ],
+    [
+     "My puppy is cute but clumsy.",
+     "Мой щенок милый, но неуклюжий."
+    ]
+   ],
+   "collocations": "a bit clumsy"
+  },
+  {
+   "word": "cautious",
+   "ipa": "/ˈkɔːʃəs/",
+   "pos": "adj.",
+   "ru": "осторожный",
+   "meaning": "careful to avoid risks",
+   "examples": [
+    [
+     "Be cautious when you cross the road.",
+     "Будь осторожен, когда переходишь дорогу."
+    ],
+    [
+     "He's a cautious driver.",
+     "Он осторожный водитель."
+    ]
+   ],
+   "collocations": "cautious about sth, cautiously"
+  },
+  {
+   "word": "mature",
+   "ipa": "/məˈtʃʊə/",
+   "pos": "adj.",
+   "ru": "зрелый, взрослый",
+   "meaning": "behaving like a sensible adult",
+   "examples": [
+    [
+     "She's very mature for her age.",
+     "Она очень взрослая для своего возраста."
+    ],
+    [
+     "That was a mature decision.",
+     "Это было взвешенное решение."
+    ]
+   ],
+   "collocations": "emotionally mature (≠ immature)"
+  },
+  {
+   "word": "flexible",
+   "ipa": "/ˈfleksəbl/",
+   "pos": "adj.",
+   "ru": "гибкий",
+   "meaning": "able to change easily",
+   "examples": [
+    [
+     "I have a flexible schedule.",
+     "У меня гибкий график."
+    ],
+    [
+     "Yoga makes you more flexible.",
+     "Йога делает тебя гибче."
+    ]
+   ],
+   "collocations": "flexible hours, flexible approach"
+  },
+  {
+   "word": "overrated",
+   "ipa": "/ˌəʊvəˈreɪtɪd/",
+   "pos": "adj.",
+   "ru": "переоценённый",
+   "meaning": "thought to be better than it really is",
+   "examples": [
+    [
+     "Honestly, that restaurant is overrated.",
+     "Честно, этот ресторан переоценён."
+    ],
+    [
+     "Is fame overrated?",
+     "Слава переоценена?"
+    ]
+   ],
+   "collocations": "totally overrated (≠ underrated)"
+  },
+  {
+   "word": "essential",
+   "ipa": "/ɪˈsenʃl/",
+   "pos": "adj.",
+   "ru": "необходимый, важнейший",
+   "meaning": "extremely important and necessary",
+   "examples": [
+    [
+     "Water is essential for life.",
+     "Вода необходима для жизни."
+    ],
+    [
+     "Sunscreen is essential in Vietnam!",
+     "Солнцезащитный крем — must have во Вьетнаме!"
+    ]
+   ],
+   "collocations": "absolutely essential, essentials"
+  },
+  {
+   "word": "familiar",
+   "ipa": "/fəˈmɪliə/",
+   "pos": "adj.",
+   "ru": "знакомый",
+   "meaning": "known to you",
+   "examples": [
+    [
+     "Your face looks familiar.",
+     "Ваше лицо кажется знакомым."
+    ],
+    [
+     "Are you familiar with this app?",
+     "Ты знаком с этим приложением?"
+    ]
+   ],
+   "collocations": "familiar with sth, sound familiar"
+  },
+  {
+   "word": "schedule",
+   "ipa": "/ˈʃedjuːl/",
+   "pos": "noun",
+   "ru": "расписание, график",
+   "meaning": "a plan of when things will happen",
+   "examples": [
+    [
+     "What's your schedule for tomorrow?",
+     "Какие у тебя планы на завтра?"
+    ],
+    [
+     "We're behind schedule.",
+     "Мы отстаём от графика."
+    ]
+   ],
+   "collocations": "busy schedule, on schedule"
+  },
+  {
+   "word": "appreciate",
+   "ipa": "/əˈpriːʃieɪt/",
+   "pos": "verb",
+   "ru": "ценить, быть признательным",
+   "meaning": "to be grateful for something",
+   "examples": [
+    [
+     "I really appreciate your help.",
+     "Я очень ценю твою помощь."
+    ],
+    [
+     "Appreciate the little things.",
+     "Цени мелочи."
+    ]
+   ],
+   "collocations": "I'd appreciate it if…"
+  },
+  {
+   "word": "encourage",
+   "ipa": "/ɪnˈkʌrɪdʒ/",
+   "pos": "verb",
+   "ru": "поощрять, вдохновлять",
+   "meaning": "to give someone confidence to do something",
+   "examples": [
+    [
+     "My teacher encouraged me to speak.",
+     "Учитель вдохновил меня говорить."
+    ],
+    [
+     "We encourage questions!",
+     "Мы приветствуем вопросы!"
+    ]
+   ],
+   "collocations": "encourage sb to do sth"
+  },
+  {
+   "word": "complain",
+   "ipa": "/kəmˈpleɪn/",
+   "pos": "verb",
+   "ru": "жаловаться",
+   "meaning": "to say you are unhappy about something",
+   "examples": [
+    [
+     "Stop complaining about the weather!",
+     "Хватит жаловаться на погоду!"
+    ],
+    [
+     "She complained to the manager.",
+     "Она пожаловалась менеджеру."
+    ]
+   ],
+   "collocations": "complain about sth, complain to sb"
+  },
+  {
+   "word": "afford",
+   "ipa": "/əˈfɔːd/",
+   "pos": "verb",
+   "ru": "позволить себе (по деньгам)",
+   "meaning": "to have enough money for something",
+   "examples": [
+    [
+     "I can't afford a new car.",
+     "Я не могу позволить себе новую машину."
+    ],
+    [
+     "Can we afford this trip?",
+     "Мы можем позволить себе эту поездку?"
+    ]
+   ],
+   "collocations": "can't afford to do sth"
+  },
+  {
+   "word": "consider",
+   "ipa": "/kənˈsɪdə/",
+   "pos": "verb",
+   "ru": "рассматривать, обдумывать",
+   "meaning": "to think carefully about something",
+   "examples": [
+    [
+     "I'm considering moving abroad.",
+     "Я подумываю о переезде за границу."
+    ],
+    [
+     "Consider all the options.",
+     "Рассмотри все варианты."
+    ]
+   ],
+   "collocations": "consider doing sth"
+  },
+  {
+   "word": "recommend",
+   "ipa": "/ˌrekəˈmend/",
+   "pos": "verb",
+   "ru": "рекомендовать, советовать",
+   "meaning": "to say that something is good",
+   "examples": [
+    [
+     "Can you recommend a good café?",
+     "Можешь посоветовать хорошее кафе?"
+    ],
+    [
+     "I highly recommend this book.",
+     "Очень рекомендую эту книгу."
+    ]
+   ],
+   "collocations": "highly recommend, recommend doing sth"
+  },
+  {
+   "word": "nostalgic",
+   "ipa": "/nɒˈstældʒɪk/",
+   "pos": "adj.",
+   "ru": "ностальгирующий",
+   "meaning": "thinking happily about the past",
+   "examples": [
+    [
+     "This song makes me nostalgic.",
+     "Эта песня вызывает у меня ностальгию."
+    ],
+    [
+     "I feel nostalgic about my school days.",
+     "Я скучаю по школьным годам."
+    ]
+   ],
+   "collocations": "feel nostalgic"
+  },
+  {
+   "word": "sustainable",
+   "ipa": "/səˈsteɪnəbl/",
+   "pos": "adj.",
+   "ru": "экологичный, устойчивый",
+   "meaning": "not harming the environment; able to continue",
+   "examples": [
+    [
+     "We try to live a sustainable life.",
+     "Мы стараемся жить экологично."
+    ],
+    [
+     "Is this business model sustainable?",
+     "Эта бизнес-модель устойчива?"
+    ]
+   ],
+   "collocations": "sustainable tourism, sustainable fashion"
+  }
+ ],
+ "phrases": [
+  {
+   "phrase": "figure out",
+   "ru": "разобраться, понять",
+   "note": "Phrasal verb — очень частый в разговоре",
+   "examples": [
+    [
+     "I can't figure out this app.",
+     "Не могу разобраться в этом приложении."
+    ],
+    [
+     "We'll figure it out together.",
+     "Мы вместе разберёмся."
+    ]
+   ]
+  },
+  {
+   "phrase": "run out of",
+   "ru": "закончиться (о запасах)",
+   "note": "Кто-то run out of что-то",
+   "examples": [
+    [
+     "We've run out of coffee!",
+     "У нас закончился кофе!"
+    ],
+    [
+     "I'm running out of time.",
+     "У меня заканчивается время."
+    ]
+   ]
+  },
+  {
+   "phrase": "take it easy",
+   "ru": "не напрягайся, расслабься",
+   "note": "Можно сказать и на прощание: «Take it easy!»",
+   "examples": [
+    [
+     "Take it easy, it's not a big deal.",
+     "Расслабься, ничего страшного."
+    ],
+    [
+     "I'm taking it easy this weekend.",
+     "На этих выходных я отдыхаю."
+    ]
+   ]
+  },
+  {
+   "phrase": "catch up",
+   "ru": "встретиться и пообщаться; наверстать",
+   "note": "catch up with sb / catch up on sth",
+   "examples": [
+    [
+     "Let's catch up over coffee!",
+     "Давай встретимся на кофе и поболтаем!"
+    ],
+    [
+     "I need to catch up on sleep.",
+     "Мне надо отоспаться."
+    ]
+   ]
+  },
+  {
+   "phrase": "get used to",
+   "ru": "привыкнуть к",
+   "note": "После to — существительное или -ing!",
+   "examples": [
+    [
+     "I'm getting used to the heat.",
+     "Я привыкаю к жаре."
+    ],
+    [
+     "You'll get used to waking up early.",
+     "Ты привыкнешь рано вставать."
+    ]
+   ]
+  },
+  {
+   "phrase": "it's up to you",
+   "ru": "решать тебе",
+   "note": "Вежливо отдаём выбор собеседнику",
+   "examples": [
+    [
+     "Pizza or sushi? It's up to you.",
+     "Пицца или суши? Решай сам."
+    ],
+    [
+     "It's up to you whether you come.",
+     "Приходить или нет — решать тебе."
+    ]
+   ]
+  },
+  {
+   "phrase": "on second thought",
+   "ru": "хотя нет, подумав…",
+   "note": "Меняем решение прямо в разговоре (UK: on second thoughts)",
+   "examples": [
+    [
+     "I'll have tea. On second thought, coffee, please.",
+     "Я буду чай. Хотя нет, кофе, пожалуйста."
+    ]
+   ]
+  },
+  {
+   "phrase": "I'm not a big fan of…",
+   "ru": "я не очень люблю…",
+   "note": "Мягче, чем «I don't like»",
+   "examples": [
+    [
+     "I'm not a big fan of horror films.",
+     "Я не большая любительница ужастиков."
+    ]
+   ]
+  },
+  {
+   "phrase": "keep in touch",
+   "ru": "оставаться на связи",
+   "note": "Часто на прощание",
+   "examples": [
+    [
+     "It was great to meet you — let's keep in touch!",
+     "Было здорово познакомиться — давай не теряться!"
+    ]
+   ]
+  },
+  {
+   "phrase": "give it a try",
+   "ru": "попробовать",
+   "note": "Синоним: give it a go / give it a shot",
+   "examples": [
+    [
+     "I've never surfed, but I'll give it a try.",
+     "Я никогда не серфила, но попробую."
+    ]
+   ]
+  },
+  {
+   "phrase": "make sense",
+   "ru": "иметь смысл, быть понятным",
+   "note": "НЕ «have sense»!",
+   "examples": [
+    [
+     "Does that make sense?",
+     "Понятно?"
+    ],
+    [
+     "It makes sense to book early.",
+     "Есть смысл бронировать заранее."
+    ]
+   ]
+  },
+  {
+   "phrase": "no wonder",
+   "ru": "неудивительно",
+   "note": "No wonder + предложение",
+   "examples": [
+    [
+     "You worked all night? No wonder you're tired.",
+     "Ты работал всю ночь? Неудивительно, что ты устал."
+    ]
+   ]
+  },
+  {
+   "phrase": "call it a day",
+   "ru": "закончить на сегодня",
+   "note": "Идиома: заканчиваем работу",
+   "examples": [
+    [
+     "It's 7 pm — let's call it a day.",
+     "Уже 7 вечера — давайте на сегодня всё."
+    ]
+   ]
+  },
+  {
+   "phrase": "a piece of cake",
+   "ru": "проще простого",
+   "note": "Идиома ≈ «раз плюнуть»",
+   "examples": [
+    [
+     "The test was a piece of cake!",
+     "Тест был проще простого!"
+    ]
+   ]
+  },
+  {
+   "phrase": "break the ice",
+   "ru": "растопить лёд",
+   "note": "Начать разговор в неловкой ситуации",
+   "examples": [
+    [
+     "A joke is a great way to break the ice.",
+     "Шутка — отличный способ растопить лёд."
+    ]
+   ]
+  },
+  {
+   "phrase": "look forward to",
+   "ru": "ждать с нетерпением",
+   "note": "После to — существительное или -ing",
+   "examples": [
+    [
+     "I'm looking forward to the weekend!",
+     "Жду не дождусь выходных!"
+    ],
+    [
+     "I look forward to hearing from you.",
+     "С нетерпением жду вашего ответа."
+    ]
+   ]
+  },
+  {
+   "phrase": "hang out",
+   "ru": "тусоваться, проводить время",
+   "note": "Разговорное: hang out with friends",
+   "examples": [
+    [
+     "Let's hang out on Saturday!",
+     "Давай потусим в субботу!"
+    ]
+   ]
+  },
+  {
+   "phrase": "find out",
+   "ru": "узнать, выяснить",
+   "note": "Узнать новую информацию",
+   "examples": [
+    [
+     "I found out the truth.",
+     "Я узнала правду."
+    ],
+    [
+     "Let me find out the price.",
+     "Дай я узнаю цену."
+    ]
+   ]
+  },
+  {
+   "phrase": "give up",
+   "ru": "бросить, сдаться",
+   "note": "give up smoking / never give up",
+   "examples": [
+    [
+     "Never give up on your dreams!",
+     "Никогда не отказывайся от мечты!"
+    ],
+    [
+     "I gave up sugar.",
+     "Я отказалась от сахара."
+    ]
+   ]
+  },
+  {
+   "phrase": "look after",
+   "ru": "заботиться, присматривать",
+   "note": "look after sb/sth",
+   "examples": [
+    [
+     "Can you look after my dog?",
+     "Присмотришь за моей собакой?"
+    ]
+   ]
+  },
+  {
+   "phrase": "turn down",
+   "ru": "отклонить; убавить",
+   "note": "turn down an offer / turn down the music",
+   "examples": [
+    [
+     "She turned down the job offer.",
+     "Она отказалась от предложения работы."
+    ],
+    [
+     "Turn down the music, please.",
+     "Сделай музыку потише, пожалуйста."
+    ]
+   ]
+  },
+  {
+   "phrase": "pick up",
+   "ru": "забрать; подхватить (навык)",
+   "note": "pick sb up / pick up a language",
+   "examples": [
+    [
+     "I'll pick you up at 7.",
+     "Я заеду за тобой в 7."
+    ],
+    [
+     "Kids pick up languages fast.",
+     "Дети быстро схватывают языки."
+    ]
+   ]
+  },
+  {
+   "phrase": "come up with",
+   "ru": "придумать",
+   "note": "Придумать идею, решение",
+   "examples": [
+    [
+     "She came up with a great idea.",
+     "Она придумала отличную идею."
+    ]
+   ]
+  },
+  {
+   "phrase": "put off",
+   "ru": "откладывать",
+   "note": "= postpone. put off doing sth",
+   "examples": [
+    [
+     "Stop putting off your homework!",
+     "Хватит откладывать домашку!"
+    ]
+   ]
+  },
+  {
+   "phrase": "set off",
+   "ru": "отправиться в путь",
+   "note": "Начать поездку",
+   "examples": [
+    [
+     "We set off early in the morning.",
+     "Мы выехали рано утром."
+    ]
+   ]
+  },
+  {
+   "phrase": "get along with",
+   "ru": "ладить с",
+   "note": "get along with sb",
+   "examples": [
+    [
+     "I get along well with my neighbours.",
+     "Я хорошо лажу с соседями."
+    ]
+   ]
+  },
+  {
+   "phrase": "look up",
+   "ru": "посмотреть (в словаре, интернете)",
+   "note": "look up a word",
+   "examples": [
+    [
+     "Look up this word in the dictionary.",
+     "Посмотри это слово в словаре."
+    ]
+   ]
+  },
+  {
+   "phrase": "work out",
+   "ru": "тренироваться; получиться; разобраться",
+   "note": "Много значений!",
+   "examples": [
+    [
+     "I work out three times a week.",
+     "Я тренируюсь три раза в неделю."
+    ],
+    [
+     "Don't worry, it'll work out.",
+     "Не волнуйся, всё получится."
+    ]
+   ]
+  },
+  {
+   "phrase": "show up",
+   "ru": "появиться, прийти",
+   "note": "Часто о неожиданном/позднем приходе",
+   "examples": [
+    [
+     "He showed up an hour late.",
+     "Он заявился на час позже."
+    ]
+   ]
+  },
+  {
+   "phrase": "cheer up",
+   "ru": "взбодриться; подбодрить",
+   "note": "Cheer up! = Не грусти!",
+   "examples": [
+    [
+     "Cheer up, it's not the end of the world!",
+     "Не грусти, это не конец света!"
+    ]
+   ]
+  },
+  {
+   "phrase": "calm down",
+   "ru": "успокоиться",
+   "note": "Calm down! звучит резко — лучше Take a deep breath",
+   "examples": [
+    [
+     "Let's all calm down and talk.",
+     "Давайте все успокоимся и поговорим."
+    ]
+   ]
+  },
+  {
+   "phrase": "go on",
+   "ru": "продолжать; происходить",
+   "note": "What's going on? — Что происходит?",
+   "examples": [
+    [
+     "Go on, I'm listening.",
+     "Продолжай, я слушаю."
+    ],
+    [
+     "What's going on here?",
+     "Что здесь происходит?"
+    ]
+   ]
+  },
+  {
+   "phrase": "hold on",
+   "ru": "подождать (секунду)",
+   "note": "Hold on a second! — разговорное",
+   "examples": [
+    [
+     "Hold on, I'll check.",
+     "Секунду, я проверю."
+    ]
+   ]
+  },
+  {
+   "phrase": "sort out",
+   "ru": "решить, уладить",
+   "note": "sort out a problem",
+   "examples": [
+    [
+     "We need to sort out this problem.",
+     "Нам надо решить эту проблему."
+    ]
+   ]
+  },
+  {
+   "phrase": "bump into",
+   "ru": "случайно встретить",
+   "note": "bump into sb",
+   "examples": [
+    [
+     "I bumped into my teacher at the market.",
+     "Я случайно встретила учителя на рынке."
+    ]
+   ]
+  },
+  {
+   "phrase": "fall asleep",
+   "ru": "заснуть",
+   "note": "fall – fell – fallen",
+   "examples": [
+    [
+     "I fell asleep during the film.",
+     "Я уснула во время фильма."
+    ]
+   ]
+  },
+  {
+   "phrase": "make up your mind",
+   "ru": "решиться, определиться",
+   "note": "= decide",
+   "examples": [
+    [
+     "I can't make up my mind!",
+     "Не могу решиться!"
+    ],
+    [
+     "Make up your mind — tea or coffee?",
+     "Определись — чай или кофе?"
+    ]
+   ]
+  },
+  {
+   "phrase": "in the middle of nowhere",
+   "ru": "у чёрта на куличках",
+   "note": "Очень далеко от цивилизации",
+   "examples": [
+    [
+     "The hotel was in the middle of nowhere.",
+     "Отель был у чёрта на куличках."
+    ]
+   ]
+  },
+  {
+   "phrase": "once in a blue moon",
+   "ru": "очень редко",
+   "note": "Буквально «раз в голубую луну»",
+   "examples": [
+    [
+     "I eat fast food once in a blue moon.",
+     "Я ем фастфуд раз в сто лет."
+    ]
+   ]
+  },
+  {
+   "phrase": "under the weather",
+   "ru": "неважно себя чувствовать",
+   "note": "I'm feeling under the weather",
+   "examples": [
+    [
+     "I'm a bit under the weather today.",
+     "Я сегодня немного приболела."
+    ]
+   ]
+  },
+  {
+   "phrase": "cost an arm and a leg",
+   "ru": "стоить целое состояние",
+   "note": "Очень дорого",
+   "examples": [
+    [
+     "That bag cost an arm and a leg!",
+     "Эта сумка стоила целое состояние!"
+    ]
+   ]
+  },
+  {
+   "phrase": "hit the road",
+   "ru": "отправиться в путь",
+   "note": "Разговорное: пора ехать",
+   "examples": [
+    [
+     "It's late — let's hit the road.",
+     "Уже поздно — поехали."
+    ]
+   ]
+  },
+  {
+   "phrase": "break a leg!",
+   "ru": "ни пуха ни пера!",
+   "note": "Пожелание удачи перед выступлением",
+   "examples": [
+    [
+     "Big exam today? Break a leg!",
+     "Сегодня экзамен? Ни пуха ни пера!"
+    ]
+   ]
+  },
+  {
+   "phrase": "the ball is in your court",
+   "ru": "теперь твой ход",
+   "note": "Решение за тобой",
+   "examples": [
+    [
+     "I've made my offer — the ball is in your court.",
+     "Я сделала предложение — теперь решать тебе."
+    ]
+   ]
+  },
+  {
+   "phrase": "get the hang of",
+   "ru": "наловчиться, освоиться",
+   "note": "get the hang of sth",
+   "examples": [
+    [
+     "You'll get the hang of it soon.",
+     "Скоро наловчишься."
+    ]
+   ]
+  },
+  {
+   "phrase": "better late than never",
+   "ru": "лучше поздно, чем никогда",
+   "note": "Как и в русском!",
+   "examples": [
+    [
+     "You started learning at 40? Better late than never!",
+     "Начали учить в 40? Лучше поздно, чем никогда!"
+    ]
+   ]
+  },
+  {
+   "phrase": "it's not my cup of tea",
+   "ru": "это не моё",
+   "note": "Мне не нравится / не мой стиль",
+   "examples": [
+    [
+     "Horror films aren't my cup of tea.",
+     "Ужастики — это не моё."
+    ]
+   ]
+  },
+  {
+   "phrase": "speak of the devil",
+   "ru": "лёгок на помине",
+   "note": "Когда человек появляется, пока о нём говорят",
+   "examples": [
+    [
+     "Speak of the devil — here's Tom!",
+     "Лёгок на помине — вот и Том!"
+    ]
+   ]
+  },
+  {
+   "phrase": "keep an eye on",
+   "ru": "присматривать за",
+   "note": "keep an eye on sb/sth",
+   "examples": [
+    [
+     "Can you keep an eye on my bag?",
+     "Присмотришь за моей сумкой?"
+    ]
+   ]
+  },
+  {
+   "phrase": "on the same page",
+   "ru": "на одной волне",
+   "note": "Одинаково понимать ситуацию",
+   "examples": [
+    [
+     "Let's make sure we're on the same page.",
+     "Давай убедимся, что мы понимаем друг друга."
+    ]
+   ]
+  },
+  {
+   "phrase": "sleep on it",
+   "ru": "отложить решение до утра",
+   "note": "Утро вечера мудренее",
+   "examples": [
+    [
+     "Don't decide now — sleep on it.",
+     "Не решай сейчас — утро вечера мудренее."
+    ]
+   ]
+  },
+  {
+   "phrase": "by the way",
+   "ru": "кстати",
+   "note": "Сокращение в чатах: BTW",
+   "examples": [
+    [
+     "By the way, have you seen Anna?",
+     "Кстати, ты видел Анну?"
+    ]
+   ]
+  },
+  {
+   "phrase": "as far as I know",
+   "ru": "насколько я знаю",
+   "note": "Сокращение: AFAIK",
+   "examples": [
+    [
+     "As far as I know, the shop is closed.",
+     "Насколько я знаю, магазин закрыт."
+    ]
+   ]
+  },
+  {
+   "phrase": "I'm all ears",
+   "ru": "я весь внимание",
+   "note": "Готов слушать",
+   "examples": [
+    [
+     "Tell me everything — I'm all ears!",
+     "Рассказывай всё — я вся внимание!"
+    ]
+   ]
+  },
+  {
+   "phrase": "let me think",
+   "ru": "дай подумать",
+   "note": "Отличная фраза, чтобы выиграть время",
+   "examples": [
+    [
+     "Hmm, let me think… Maybe Friday?",
+     "Хм, дай подумать… Может, в пятницу?"
+    ]
+   ]
+  },
+  {
+   "phrase": "fair enough",
+   "ru": "справедливо, логично",
+   "note": "Соглашаемся с аргументом",
+   "examples": [
+    [
+     "You're tired? Fair enough, let's go home.",
+     "Ты устал? Логично, пошли домой."
+    ]
+   ]
+  },
+  {
+   "phrase": "I couldn't agree more",
+   "ru": "полностью согласен",
+   "note": "Сильное согласие",
+   "examples": [
+    [
+     "Learning should be fun. — I couldn't agree more!",
+     "Учёба должна быть в радость. — Полностью согласна!"
+    ]
+   ]
+  },
+  {
+   "phrase": "that's a shame",
+   "ru": "жаль",
+   "note": "= What a pity",
+   "examples": [
+    [
+     "You can't come? That's a shame.",
+     "Ты не сможешь прийти? Жаль."
+    ]
+   ]
+  },
+  {
+   "phrase": "no way!",
+   "ru": "да ладно! / ни за что!",
+   "note": "Удивление или отказ",
+   "examples": [
+    [
+     "You won the lottery? No way!",
+     "Ты выиграл в лотерею? Да ладно!"
+    ]
+   ]
+  },
+  {
+   "phrase": "you're welcome",
+   "ru": "пожалуйста (в ответ на спасибо)",
+   "note": "Также: No problem / Any time / My pleasure",
+   "examples": [
+    [
+     "Thanks for your help! — You're welcome!",
+     "Спасибо за помощь! — Пожалуйста!"
+    ]
+   ]
+  },
+  {
+   "phrase": "it's worth it",
+   "ru": "оно того стоит",
+   "note": "Также: worth a try",
+   "examples": [
+    [
+     "The hike is hard, but it's worth it.",
+     "Поход тяжёлый, но оно того стоит."
+    ]
+   ]
+  },
+  {
+   "phrase": "what's the point?",
+   "ru": "какой смысл?",
+   "note": "what's the point of doing sth",
+   "examples": [
+    [
+     "What's the point of worrying?",
+     "Какой смысл переживать?"
+    ]
+   ]
+  },
+  {
+   "phrase": "I'm on my way",
+   "ru": "я уже еду / иду",
+   "note": "Классика сообщений",
+   "examples": [
+    [
+     "Sorry, I'm on my way!",
+     "Извини, я уже еду!"
+    ]
+   ]
+  },
+  {
+   "phrase": "take your time",
+   "ru": "не торопись",
+   "note": "Дать человеку время",
+   "examples": [
+    [
+     "No rush — take your time.",
+     "Не спеши — не торопись."
+    ]
+   ]
+  },
+  {
+   "phrase": "I'm fed up with",
+   "ru": "мне надоело",
+   "note": "fed up with sth/doing sth",
+   "examples": [
+    [
+     "I'm fed up with the rain!",
+     "Мне надоел этот дождь!"
+    ]
+   ]
+  },
+  {
+   "phrase": "count me in",
+   "ru": "я в деле",
+   "note": "Наоборот: count me out",
+   "examples": [
+    [
+     "A beach party? Count me in!",
+     "Вечеринка на пляже? Я в деле!"
+    ]
+   ]
+  },
+  {
+   "phrase": "go for it!",
+   "ru": "давай, действуй!",
+   "note": "Поддержка решения",
+   "examples": [
+    [
+     "You want to start a business? Go for it!",
+     "Хочешь открыть бизнес? Действуй!"
+    ]
+   ]
+  },
+  {
+   "phrase": "it's on me",
+   "ru": "я угощаю",
+   "note": "= My treat",
+   "examples": [
+    [
+     "Put your wallet away — it's on me.",
+     "Убери кошелёк — я угощаю."
+    ]
+   ]
+  },
+  {
+   "phrase": "long time no see",
+   "ru": "сто лет не виделись",
+   "note": "Неформальное приветствие",
+   "examples": [
+    [
+     "Hey Anna! Long time no see!",
+     "Привет, Анна! Сто лет не виделись!"
+    ]
+   ]
+  },
+  {
+   "phrase": "what's up?",
+   "ru": "как дела? что нового?",
+   "note": "Ответ: Not much / Nothing much",
+   "examples": [
+    [
+     "Hey, what's up? — Not much, you?",
+     "Привет, как дела? — Да ничего, а у тебя?"
+    ]
+   ]
+  },
+  {
+   "phrase": "I'm just looking",
+   "ru": "я просто смотрю",
+   "note": "Ответ продавцу в магазине",
+   "examples": [
+    [
+     "Can I help you? — I'm just looking, thanks.",
+     "Вам помочь? — Я просто смотрю, спасибо."
+    ]
+   ]
+  },
+  {
+   "phrase": "can I get…?",
+   "ru": "можно мне…?",
+   "note": "Естественный способ заказать в кафе",
+   "examples": [
+    [
+     "Can I get a latte, please?",
+     "Можно мне латте, пожалуйста?"
+    ]
+   ]
+  },
+  {
+   "phrase": "the bill, please",
+   "ru": "счёт, пожалуйста",
+   "note": "US: the check, please",
+   "examples": [
+    [
+     "Excuse me, could we have the bill, please?",
+     "Извините, можно счёт, пожалуйста?"
+    ]
+   ]
+  },
+  {
+   "phrase": "I didn't catch that",
+   "ru": "я не расслышал(а)",
+   "note": "Вежливо переспросить",
+   "examples": [
+    [
+     "Sorry, I didn't catch that. Could you repeat?",
+     "Извините, я не расслышала. Повторите?"
+    ]
+   ]
+  },
+  {
+   "phrase": "what do you mean?",
+   "ru": "что ты имеешь в виду?",
+   "note": "Уточнить смысл",
+   "examples": [
+    [
+     "What do you mean by 'soon'?",
+     "Что ты имеешь в виду под «скоро»?"
+    ]
+   ]
+  },
+  {
+   "phrase": "in a nutshell",
+   "ru": "в двух словах",
+   "note": "Кратко",
+   "examples": [
+    [
+     "In a nutshell, the trip was amazing.",
+     "В двух словах — поездка была потрясающей."
+    ]
+   ]
+  },
+  {
+   "phrase": "to make a long story short",
+   "ru": "короче говоря",
+   "note": "Сокращаем рассказ",
+   "examples": [
+    [
+     "To make a long story short, we missed the flight.",
+     "Короче говоря, мы опоздали на самолёт."
+    ]
+   ]
+  },
+  {
+   "phrase": "a blessing in disguise",
+   "ru": "нет худа без добра",
+   "note": "Неприятность, оказавшаяся удачей",
+   "examples": [
+    [
+     "Losing that job was a blessing in disguise.",
+     "Потеря той работы оказалась к лучшему."
+    ]
+   ]
+  },
+  {
+   "phrase": "bite off more than you can chew",
+   "ru": "взять на себя слишком много",
+   "note": "Переоценить силы",
+   "examples": [
+    [
+     "With three jobs, I bit off more than I could chew.",
+     "С тремя работами я взвалила на себя слишком много."
+    ]
+   ]
+  },
+  {
+   "phrase": "get out of hand",
+   "ru": "выйти из-под контроля",
+   "note": "Ситуация стала неуправляемой",
+   "examples": [
+    [
+     "The party got out of hand.",
+     "Вечеринка вышла из-под контроля."
+    ]
+   ]
+  },
+  {
+   "phrase": "hit the books",
+   "ru": "засесть за учёбу",
+   "note": "Разговорное: учиться",
+   "examples": [
+    [
+     "Exams next week — time to hit the books!",
+     "Экзамены на следующей неделе — пора за учебники!"
+    ]
+   ]
+  },
+  {
+   "phrase": "miss the boat",
+   "ru": "упустить шанс",
+   "note": "Опоздать с возможностью",
+   "examples": [
+    [
+     "Tickets are sold out — we missed the boat.",
+     "Билеты распроданы — мы упустили шанс."
+    ]
+   ]
+  },
+  {
+   "phrase": "pull someone's leg",
+   "ru": "разыгрывать, подшучивать",
+   "note": "Are you pulling my leg? — Ты меня разыгрываешь?",
+   "examples": [
+    [
+     "Relax, I'm just pulling your leg!",
+     "Расслабься, я просто шучу!"
+    ]
+   ]
+  },
+  {
+   "phrase": "so far so good",
+   "ru": "пока всё хорошо",
+   "note": "Промежуточный итог",
+   "examples": [
+    [
+     "How's the new job? — So far so good!",
+     "Как новая работа? — Пока всё отлично!"
+    ]
+   ]
+  },
+  {
+   "phrase": "you can say that again",
+   "ru": "и не говори",
+   "note": "Полностью согласен",
+   "examples": [
+    [
+     "It's so hot today! — You can say that again!",
+     "Сегодня так жарко! — И не говори!"
+    ]
+   ]
+  },
+  {
+   "phrase": "I'm running late",
+   "ru": "я опаздываю",
+   "note": "Предупредить об опоздании",
+   "examples": [
+    [
+     "Sorry, I'm running late — 10 minutes!",
+     "Извини, я опаздываю — 10 минут!"
+    ]
+   ]
+  },
+  {
+   "phrase": "it slipped my mind",
+   "ru": "вылетело из головы",
+   "note": "Забыл",
+   "examples": [
+    [
+     "Sorry, your birthday completely slipped my mind!",
+     "Прости, твой день рождения совсем вылетел у меня из головы!"
+    ]
+   ]
+  },
+  {
+   "phrase": "on the tip of my tongue",
+   "ru": "вертится на языке",
+   "note": "Не могу вспомнить слово",
+   "examples": [
+    [
+     "Her name is on the tip of my tongue…",
+     "Её имя вертится на языке…"
+    ]
+   ]
+  },
+  {
+   "phrase": "no hard feelings",
+   "ru": "без обид",
+   "note": "Мирное завершение конфликта",
+   "examples": [
+    [
+     "I said no, but no hard feelings, okay?",
+     "Я отказала, но без обид, хорошо?"
+    ]
+   ]
+  },
+  {
+   "phrase": "I'll keep my fingers crossed",
+   "ru": "держу за тебя кулачки",
+   "note": "Скрещённые пальцы = удача",
+   "examples": [
+    [
+     "Good luck tomorrow! I'll keep my fingers crossed.",
+     "Удачи завтра! Держу кулачки."
+    ]
+   ]
+  },
+  {
+   "phrase": "get rid of",
+   "ru": "избавиться от",
+   "note": "get rid of sth/sb",
+   "examples": [
+    [
+     "I need to get rid of old clothes.",
+     "Мне нужно избавиться от старой одежды."
+    ]
+   ]
+  },
+  {
+   "phrase": "end up",
+   "ru": "в итоге оказаться",
+   "note": "end up + -ing / place",
+   "examples": [
+    [
+     "We ended up staying at home.",
+     "В итоге мы остались дома."
+    ]
+   ]
+  },
+  {
+   "phrase": "drop by",
+   "ru": "заскочить, забежать",
+   "note": "Ненадолго зайти в гости",
+   "examples": [
+    [
+     "Drop by for a coffee!",
+     "Заходи на кофе!"
+    ]
+   ]
+  },
+  {
+   "phrase": "fill in",
+   "ru": "заполнить",
+   "note": "fill in a form (US: fill out)",
+   "examples": [
+    [
+     "Please fill in this form.",
+     "Пожалуйста, заполните эту форму."
+    ]
+   ]
+  },
+  {
+   "phrase": "get over",
+   "ru": "прийти в себя после",
+   "note": "get over a cold / a breakup",
+   "examples": [
+    [
+     "It took me a week to get over the flu.",
+     "Мне понадобилась неделя, чтобы оправиться от гриппа."
+    ]
+   ]
+  },
+  {
+   "phrase": "go through",
+   "ru": "пройти через, пережить",
+   "note": "go through a difficult time",
+   "examples": [
+    [
+     "She's going through a hard time.",
+     "У неё сейчас тяжёлый период."
+    ]
+   ]
+  },
+  {
+   "phrase": "take after",
+   "ru": "быть похожим (на родственника)",
+   "note": "take after your mum/dad",
+   "examples": [
+    [
+     "I take after my dad — we're both stubborn.",
+     "Я в папу — мы оба упрямые."
+    ]
+   ]
+  },
+  {
+   "phrase": "turn up",
+   "ru": "появиться; сделать громче",
+   "note": "turn up = show up / turn up the music",
+   "examples": [
+    [
+     "Only five people turned up.",
+     "Пришло всего пять человек."
+    ],
+    [
+     "Turn up the volume!",
+     "Сделай погромче!"
+    ]
+   ]
+  },
+  {
+   "phrase": "let someone down",
+   "ru": "подвести кого-то",
+   "note": "Разочаровать, не оправдать ожиданий",
+   "examples": [
+    [
+     "Don't worry, I won't let you down.",
+     "Не волнуйся, я тебя не подведу."
+    ]
+   ]
+  },
+  {
+   "phrase": "call off",
+   "ru": "отменить",
+   "note": "= cancel",
+   "examples": [
+    [
+     "They called off the match because of rain.",
+     "Матч отменили из-за дождя."
+    ]
+   ]
+  },
+  {
+   "phrase": "look on the bright side",
+   "ru": "смотреть на светлую сторону",
+   "note": "Видеть хорошее",
+   "examples": [
+    [
+     "Look on the bright side — at least it's Friday!",
+     "Смотри на светлую сторону — хотя бы пятница!"
+    ]
+   ]
+  },
+  {
+   "phrase": "the last straw",
+   "ru": "последняя капля",
+   "note": "Буквально «последняя соломинка»",
+   "examples": [
+    [
+     "When he was late again, it was the last straw.",
+     "Когда он снова опоздал, это стало последней каплей."
+    ]
+   ]
+  },
+  {
+   "phrase": "kill two birds with one stone",
+   "ru": "убить двух зайцев",
+   "note": "Сделать два дела за раз",
+   "examples": [
+    [
+     "I walk to work — I kill two birds with one stone: exercise and travel.",
+     "Хожу на работу пешком — убиваю двух зайцев: спорт и дорога."
+    ]
+   ]
+  },
+  {
+   "phrase": "beat around the bush",
+   "ru": "ходить вокруг да около",
+   "note": "Не говорить прямо",
+   "examples": [
+    [
+     "Stop beating around the bush — what happened?",
+     "Хватит ходить вокруг да около — что случилось?"
+    ]
+   ]
+  },
+  {
+   "phrase": "on cloud nine",
+   "ru": "на седьмом небе",
+   "note": "В английском — на девятом облаке!",
+   "examples": [
+    [
+     "She's been on cloud nine since the wedding.",
+     "Она на седьмом небе со дня свадьбы."
+    ]
+   ]
+  },
+  {
+   "phrase": "see eye to eye",
+   "ru": "сходиться во мнениях",
+   "note": "Чаще в отрицании: don't see eye to eye",
+   "examples": [
+    [
+     "We don't always see eye to eye.",
+     "Мы не всегда сходимся во мнениях."
+    ]
+   ]
+  },
+  {
+   "phrase": "rain or shine",
+   "ru": "в любую погоду, при любых условиях",
+   "note": "Несмотря ни на что",
+   "examples": [
+    [
+     "We run every morning, rain or shine.",
+     "Мы бегаем каждое утро в любую погоду."
+    ]
+   ]
+  },
+  {
+   "phrase": "it's a deal!",
+   "ru": "договорились!",
+   "note": "Подтверждаем договорённость",
+   "examples": [
+    [
+     "You cook, I wash up. — It's a deal!",
+     "Ты готовишь, я мою посуду. — Договорились!"
+    ]
+   ]
+  },
+  {
+   "phrase": "sounds good",
+   "ru": "звучит отлично, подходит",
+   "note": "Короткое согласие",
+   "examples": [
+    [
+     "Dinner at 8? — Sounds good!",
+     "Ужин в 8? — Отлично!"
+    ]
+   ]
+  },
+  {
+   "phrase": "spill the beans",
+   "ru": "проболтаться, выдать секрет",
+   "note": "Буквально «рассыпать бобы»",
+   "examples": [
+    [
+     "Come on, spill the beans — who is he?",
+     "Ну давай, колись — кто он?"
+    ]
+   ]
+  },
+  {
+   "phrase": "cut corners",
+   "ru": "экономить на качестве, халтурить",
+   "note": "Делать кое-как",
+   "examples": [
+    [
+     "Don't cut corners on safety.",
+     "Не экономь на безопасности."
+    ]
+   ]
+  },
+  {
+   "phrase": "keep it up!",
+   "ru": "так держать!",
+   "note": "Похвала и поддержка",
+   "examples": [
+    [
+     "Your English is getting better. Keep it up!",
+     "Твой английский становится лучше. Так держать!"
+    ]
+   ]
+  }
+ ],
+ "quizzes": [
+  {
+   "q": "I ___ in Vietnam since 2020.",
+   "options": [
+    "live",
+    "am living",
+    "have lived",
+    "lived"
+   ],
+   "correct": 2,
+   "explain": "Present Perfect: действие началось в прошлом и длится до сих пор (since 2020)."
+  },
+  {
+   "q": "She's really good ___ maths.",
+   "options": [
+    "at",
+    "in",
+    "on",
+    "for"
+   ],
+   "correct": 0,
+   "explain": "good at sth — хорош в чём-то."
+  },
+  {
+   "q": "If I ___ you, I'd call her.",
+   "options": [
+    "am",
+    "was",
+    "were",
+    "be"
+   ],
+   "correct": 2,
+   "explain": "If I were you — устойчивый совет (2nd conditional)."
+  },
+  {
+   "q": "We've run ___ of milk.",
+   "options": [
+    "out",
+    "off",
+    "over",
+    "away"
+   ],
+   "correct": 0,
+   "explain": "run out of — закончиться."
+  },
+  {
+   "q": "Which phrasal verb means «разобраться»?",
+   "options": [
+    "figure out",
+    "look after",
+    "give up",
+    "turn down"
+   ],
+   "correct": 0,
+   "explain": "figure out — разобраться, понять."
+  },
+  {
+   "q": "I'm looking forward to ___ you.",
+   "options": [
+    "see",
+    "seeing",
+    "saw",
+    "to see"
+   ],
+   "correct": 1,
+   "explain": "look forward to + -ing: to здесь предлог."
+  },
+  {
+   "q": "He ___ to the gym every day.",
+   "options": [
+    "go",
+    "goes",
+    "is going",
+    "going"
+   ],
+   "correct": 1,
+   "explain": "Present Simple, he/she/it → -s: goes."
+  },
+  {
+   "q": "There isn't ___ sugar left.",
+   "options": [
+    "many",
+    "much",
+    "a few",
+    "few"
+   ],
+   "correct": 1,
+   "explain": "sugar — неисчисляемое → much."
+  },
+  {
+   "q": "I've never ___ sushi.",
+   "options": [
+    "eat",
+    "ate",
+    "eaten",
+    "eating"
+   ],
+   "correct": 2,
+   "explain": "have + 3-я форма: eat – ate – eaten."
+  },
+  {
+   "q": "Choose the word for «неловкий»:",
+   "options": [
+    "awkward",
+    "eager",
+    "genuine",
+    "grateful"
+   ],
+   "correct": 0,
+   "explain": "awkward — неловкий, неудобный."
+  },
+  {
+   "q": "By the time we arrived, the film ___.",
+   "options": [
+    "started",
+    "has started",
+    "had started",
+    "starts"
+   ],
+   "correct": 2,
+   "explain": "Past Perfect: одно действие раньше другого в прошлом."
+  },
+  {
+   "q": "It's the ___ day of my life!",
+   "options": [
+    "best",
+    "better",
+    "most good",
+    "goodest"
+   ],
+   "correct": 0,
+   "explain": "good – better – the best."
+  },
+  {
+   "q": "Can you ___ me a favour?",
+   "options": [
+    "make",
+    "do",
+    "give",
+    "take"
+   ],
+   "correct": 1,
+   "explain": "do sb a favour — оказать услугу."
+  },
+  {
+   "q": "I'm not used to ___ up early.",
+   "options": [
+    "get",
+    "getting",
+    "got",
+    "gets"
+   ],
+   "correct": 1,
+   "explain": "be used to + -ing — привык к чему-то."
+  },
+  {
+   "q": "She ___ TV when I called.",
+   "options": [
+    "watched",
+    "was watching",
+    "watches",
+    "has watched"
+   ],
+   "correct": 1,
+   "explain": "Past Continuous: процесс в прошлом, прерванный другим действием."
+  },
+  {
+   "q": "I'm interested ___ history.",
+   "options": [
+    "in",
+    "on",
+    "at",
+    "about"
+   ],
+   "correct": 0,
+   "explain": "interested in sth — интересоваться чем-то."
+  },
+  {
+   "q": "___ you ever been to Japan?",
+   "options": [
+    "Did",
+    "Were",
+    "Have",
+    "Do"
+   ],
+   "correct": 2,
+   "explain": "Опыт в жизни — Present Perfect: Have you ever been…?"
+  },
+  {
+   "q": "This is ___ interesting book I've ever read.",
+   "options": [
+    "the more",
+    "the most",
+    "most",
+    "more"
+   ],
+   "correct": 1,
+   "explain": "Превосходная степень длинных прилагательных: the most."
+  },
+  {
+   "q": "He doesn't like coffee, and ___ do I.",
+   "options": [
+    "so",
+    "neither",
+    "either",
+    "too"
+   ],
+   "correct": 1,
+   "explain": "Согласие с отрицанием: Neither do I."
+  },
+  {
+   "q": "We arrived ___ the airport at 6.",
+   "options": [
+    "to",
+    "in",
+    "at",
+    "on"
+   ],
+   "correct": 2,
+   "explain": "arrive at (здание, пункт), arrive in (город, страна). Никогда arrive to!"
+  },
+  {
+   "q": "I wish I ___ more time.",
+   "options": [
+    "have",
+    "had",
+    "will have",
+    "having"
+   ],
+   "correct": 1,
+   "explain": "I wish + Past Simple — сожаление о настоящем."
+  },
+  {
+   "q": "She asked me where I ___.",
+   "options": [
+    "live",
+    "lived",
+    "do live",
+    "am living"
+   ],
+   "correct": 1,
+   "explain": "Косвенная речь: время сдвигается назад (live → lived)."
+  },
+  {
+   "q": "The letter ___ yesterday.",
+   "options": [
+    "sent",
+    "was sent",
+    "has sent",
+    "is sent"
+   ],
+   "correct": 1,
+   "explain": "Пассив в прошлом: was/were + V3."
+  },
+  {
+   "q": "I usually ___ up at 7.",
+   "options": [
+    "get",
+    "am getting",
+    "got",
+    "gets"
+   ],
+   "correct": 0,
+   "explain": "Регулярное действие — Present Simple: I get."
+  },
+  {
+   "q": "Look! It ___!",
+   "options": [
+    "snows",
+    "is snowing",
+    "snowed",
+    "snow"
+   ],
+   "correct": 1,
+   "explain": "Look! — действие прямо сейчас → Present Continuous."
+  },
+  {
+   "q": "I have ___ friends in Hanoi.",
+   "options": [
+    "a little",
+    "much",
+    "a few",
+    "little"
+   ],
+   "correct": 2,
+   "explain": "friends — исчисляемое → a few (несколько)."
+  },
+  {
+   "q": "You ___ smoke here. It's forbidden.",
+   "options": [
+    "mustn't",
+    "don't have to",
+    "needn't",
+    "shouldn't to"
+   ],
+   "correct": 0,
+   "explain": "mustn't — запрет. don't have to — нет необходимости."
+  },
+  {
+   "q": "I've lived here ___ five years.",
+   "options": [
+    "since",
+    "for",
+    "during",
+    "from"
+   ],
+   "correct": 1,
+   "explain": "for + период (five years), since + точка отсчёта (2020)."
+  },
+  {
+   "q": "If it rains, we ___ at home.",
+   "options": [
+    "stay",
+    "will stay",
+    "would stay",
+    "stayed"
+   ],
+   "correct": 1,
+   "explain": "1st conditional: If + Present, will + V."
+  },
+  {
+   "q": "She speaks English very ___.",
+   "options": [
+    "good",
+    "well",
+    "nice",
+    "fluent"
+   ],
+   "correct": 1,
+   "explain": "Наречие well описывает глагол speaks; good — прилагательное."
+  },
+  {
+   "q": "Which is correct?",
+   "options": [
+    "I am agree",
+    "I agree",
+    "I am agreed",
+    "I agreeing"
+   ],
+   "correct": 1,
+   "explain": "agree — глагол, am не нужен: I agree."
+  },
+  {
+   "q": "He's the man ___ car was stolen.",
+   "options": [
+    "who",
+    "which",
+    "whose",
+    "whom"
+   ],
+   "correct": 2,
+   "explain": "whose — чей: the man whose car…"
+  },
+  {
+   "q": "Choose the opposite of «borrow»:",
+   "options": [
+    "lend",
+    "take",
+    "give back",
+    "keep"
+   ],
+   "correct": 0,
+   "explain": "borrow — брать взаймы, lend — давать взаймы."
+  },
+  {
+   "q": "It's ___ hot to go out.",
+   "options": [
+    "too",
+    "enough",
+    "very much",
+    "so much"
+   ],
+   "correct": 0,
+   "explain": "too + adj — слишком: too hot to go out."
+  },
+  {
+   "q": "I'm tired ___ waiting.",
+   "options": [
+    "from",
+    "of",
+    "with",
+    "about"
+   ],
+   "correct": 1,
+   "explain": "tired of sth — устать от чего-то."
+  },
+  {
+   "q": "They ___ married since 2015.",
+   "options": [
+    "are",
+    "were",
+    "have been",
+    "had"
+   ],
+   "correct": 2,
+   "explain": "since 2015 → Present Perfect: have been married."
+  },
+  {
+   "q": "What does «under the weather» mean?",
+   "options": [
+    "приболеть",
+    "промокнуть",
+    "замёрзнуть",
+    "грустить из-за погоды"
+   ],
+   "correct": 0,
+   "explain": "under the weather — неважно себя чувствовать."
+  },
+  {
+   "q": "Could you tell me where ___?",
+   "options": [
+    "is the station",
+    "the station is",
+    "does the station",
+    "the station"
+   ],
+   "correct": 1,
+   "explain": "Вежливый вопрос — прямой порядок слов: where the station is."
+  },
+  {
+   "q": "I ___ go to the gym, but now I don't.",
+   "options": [
+    "use to",
+    "used to",
+    "was used to",
+    "am used to"
+   ],
+   "correct": 1,
+   "explain": "used to + V — привычка в прошлом, которой больше нет."
+  },
+  {
+   "q": "She ___ finished her homework yet.",
+   "options": [
+    "didn't",
+    "hasn't",
+    "isn't",
+    "doesn't"
+   ],
+   "correct": 1,
+   "explain": "yet + Present Perfect в отрицании: hasn't finished yet."
+  },
+  {
+   "q": "I'm not ___ for this job.",
+   "options": [
+    "enough experienced",
+    "experienced enough",
+    "enough experience",
+    "experience enough"
+   ],
+   "correct": 1,
+   "explain": "enough ставится ПОСЛЕ прилагательного: experienced enough."
+  },
+  {
+   "q": "Choose the correct word: «a ___ of advice»",
+   "options": [
+    "piece",
+    "peace",
+    "bit of",
+    "advices"
+   ],
+   "correct": 0,
+   "explain": "advice — неисчисляемое: a piece of advice."
+  },
+  {
+   "q": "We'll go out ___ the rain stops.",
+   "options": [
+    "when",
+    "when will",
+    "if will",
+    "while will"
+   ],
+   "correct": 0,
+   "explain": "После when — Present Simple, даже о будущем."
+  },
+  {
+   "q": "Neither Tom ___ Kate came.",
+   "options": [
+    "or",
+    "nor",
+    "and",
+    "neither"
+   ],
+   "correct": 1,
+   "explain": "neither … nor — ни … ни."
+  },
+  {
+   "q": "What's the past form of «bring»?",
+   "options": [
+    "bringed",
+    "brang",
+    "brought",
+    "brung"
+   ],
+   "correct": 2,
+   "explain": "bring – brought – brought."
+  },
+  {
+   "q": "He made me ___ the dishes.",
+   "options": [
+    "wash",
+    "to wash",
+    "washing",
+    "washed"
+   ],
+   "correct": 0,
+   "explain": "make sb do sth — без to."
+  },
+  {
+   "q": "It's the first time I ___ sushi.",
+   "options": [
+    "eat",
+    "ate",
+    "have eaten",
+    "am eating"
+   ],
+   "correct": 2,
+   "explain": "It's the first time + Present Perfect."
+  },
+  {
+   "q": "I'd rather ___ at home tonight.",
+   "options": [
+    "stay",
+    "to stay",
+    "staying",
+    "stayed"
+   ],
+   "correct": 0,
+   "explain": "would rather + V без to."
+  },
+  {
+   "q": "You look tired. You ___ go to bed.",
+   "options": [
+    "should",
+    "must to",
+    "ought",
+    "have"
+   ],
+   "correct": 0,
+   "explain": "should + V — совет."
+  },
+  {
+   "q": "What does «a piece of cake» mean?",
+   "options": [
+    "кусок торта",
+    "проще простого",
+    "подарок",
+    "десерт дня"
+   ],
+   "correct": 1,
+   "explain": "a piece of cake — очень легко."
+  },
+  {
+   "q": "I don't mind ___ the window.",
+   "options": [
+    "open",
+    "to open",
+    "opening",
+    "opened"
+   ],
+   "correct": 2,
+   "explain": "don't mind + -ing."
+  },
+  {
+   "q": "This house ___ in 1990.",
+   "options": [
+    "built",
+    "was built",
+    "has built",
+    "is building"
+   ],
+   "correct": 1,
+   "explain": "Пассив: was built — был построен."
+  },
+  {
+   "q": "Is there ___ milk in the fridge?",
+   "options": [
+    "some",
+    "any",
+    "many",
+    "a"
+   ],
+   "correct": 1,
+   "explain": "В вопросах обычно any: Is there any milk?"
+  },
+  {
+   "q": "I'll call you as soon as I ___.",
+   "options": [
+    "arrive",
+    "will arrive",
+    "arrived",
+    "arriving"
+   ],
+   "correct": 0,
+   "explain": "После as soon as — Present Simple."
+  },
+  {
+   "q": "He's good at ___ jokes.",
+   "options": [
+    "tell",
+    "telling",
+    "to tell",
+    "told"
+   ],
+   "correct": 1,
+   "explain": "После предлога (at) — -ing."
+  },
+  {
+   "q": "By next year, I ___ my degree.",
+   "options": [
+    "finish",
+    "will have finished",
+    "finished",
+    "am finishing"
+   ],
+   "correct": 1,
+   "explain": "Future Perfect: действие завершится к моменту в будущем."
+  },
+  {
+   "q": "She has two ___.",
+   "options": [
+    "childs",
+    "children",
+    "childrens",
+    "child"
+   ],
+   "correct": 1,
+   "explain": "child → children (неправильное мн. число)."
+  },
+  {
+   "q": "«Gorgeous» means…",
+   "options": [
+    "ужасный",
+    "великолепный",
+    "огромный",
+    "дорогой"
+   ],
+   "correct": 1,
+   "explain": "gorgeous — великолепный, очень красивый."
+  },
+  {
+   "q": "We ___ to the cinema last night.",
+   "options": [
+    "go",
+    "went",
+    "have gone",
+    "were go"
+   ],
+   "correct": 1,
+   "explain": "last night → Past Simple: went."
+  },
+  {
+   "q": "Hurry up! The bus ___ in 5 minutes.",
+   "options": [
+    "leaves",
+    "is leave",
+    "left",
+    "leaving"
+   ],
+   "correct": 0,
+   "explain": "Расписание — Present Simple даже о будущем."
+  },
+  {
+   "q": "I can't stand ___ in queues.",
+   "options": [
+    "wait",
+    "waiting",
+    "to waiting",
+    "waited"
+   ],
+   "correct": 1,
+   "explain": "can't stand + -ing."
+  },
+  {
+   "q": "Do you know ___ she lives?",
+   "options": [
+    "where",
+    "what",
+    "who",
+    "which"
+   ],
+   "correct": 0,
+   "explain": "where — где."
+  },
+  {
+   "q": "The film was so ___ that I fell asleep.",
+   "options": [
+    "bored",
+    "boring",
+    "bore",
+    "boredom"
+   ],
+   "correct": 1,
+   "explain": "Фильм вызывает скуку → boring. Я чувствую скуку → bored."
+  },
+  {
+   "q": "She's taller ___ her brother.",
+   "options": [
+    "then",
+    "than",
+    "that",
+    "as"
+   ],
+   "correct": 1,
+   "explain": "Сравнение: taller than. then — потом!"
+  },
+  {
+   "q": "What does «long time no see» mean?",
+   "options": [
+    "давно не виделись",
+    "плохо вижу",
+    "не смотри долго",
+    "до скорого"
+   ],
+   "correct": 0,
+   "explain": "long time no see — сто лет не виделись."
+  },
+  {
+   "q": "I ___ him since we were kids.",
+   "options": [
+    "know",
+    "knew",
+    "have known",
+    "am knowing"
+   ],
+   "correct": 2,
+   "explain": "know — глагол состояния, с since → have known."
+  },
+  {
+   "q": "You don't have to ___.",
+   "options": [
+    "come",
+    "to come",
+    "coming",
+    "came"
+   ],
+   "correct": 0,
+   "explain": "have to + V: don't have to come."
+  },
+  {
+   "q": "Let's meet ___ Monday.",
+   "options": [
+    "in",
+    "at",
+    "on",
+    "by"
+   ],
+   "correct": 2,
+   "explain": "Дни недели — on: on Monday."
+  },
+  {
+   "q": "I was born ___ 1995.",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "since"
+   ],
+   "correct": 1,
+   "explain": "Годы, месяцы — in: in 1995."
+  },
+  {
+   "q": "See you ___ 7 o'clock.",
+   "options": [
+    "at",
+    "on",
+    "in",
+    "by the"
+   ],
+   "correct": 0,
+   "explain": "Время на часах — at: at 7."
+  },
+  {
+   "q": "Choose the polite request:",
+   "options": [
+    "Give me water.",
+    "I want water.",
+    "Could I have some water, please?",
+    "Water!"
+   ],
+   "correct": 2,
+   "explain": "Could I have…, please? — вежливая просьба."
+  },
+  {
+   "q": "If I won the lottery, I ___ a house.",
+   "options": [
+    "buy",
+    "will buy",
+    "would buy",
+    "bought"
+   ],
+   "correct": 2,
+   "explain": "2nd conditional: If + Past, would + V."
+  },
+  {
+   "q": "How ___ does it cost?",
+   "options": [
+    "many",
+    "much",
+    "more",
+    "long"
+   ],
+   "correct": 1,
+   "explain": "Цена — How much?"
+  },
+  {
+   "q": "The news ___ good today.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "be"
+   ],
+   "correct": 1,
+   "explain": "news — единственное число: The news is."
+  },
+  {
+   "q": "She's used to ___ in the heat.",
+   "options": [
+    "work",
+    "working",
+    "worked",
+    "works"
+   ],
+   "correct": 1,
+   "explain": "be used to + -ing — привыкла к."
+  },
+  {
+   "q": "I ___ my keys! Can you help me find them?",
+   "options": [
+    "lost",
+    "have lost",
+    "lose",
+    "am losing"
+   ],
+   "correct": 1,
+   "explain": "Результат важен сейчас → Present Perfect."
+  },
+  {
+   "q": "What does «I'm all ears» mean?",
+   "options": [
+    "у меня большие уши",
+    "я весь внимание",
+    "я ничего не слышу",
+    "я устал"
+   ],
+   "correct": 1,
+   "explain": "I'm all ears — я весь внимание."
+  },
+  {
+   "q": "Which word is a synonym of «exhausted»?",
+   "options": [
+    "excited",
+    "very tired",
+    "angry",
+    "bored"
+   ],
+   "correct": 1,
+   "explain": "exhausted = very tired."
+  },
+  {
+   "q": "I'm looking for ___ to stay.",
+   "options": [
+    "somewhere",
+    "anywhere",
+    "nowhere",
+    "everywhere"
+   ],
+   "correct": 0,
+   "explain": "В утвердительных предложениях — somewhere."
+  },
+  {
+   "q": "He told me ___ late.",
+   "options": [
+    "not be",
+    "not to be",
+    "don't be",
+    "to not being"
+   ],
+   "correct": 1,
+   "explain": "tell sb (not) to do sth."
+  },
+  {
+   "q": "It ___ be Anna — she's in Paris now.",
+   "options": [
+    "can't",
+    "mustn't",
+    "shouldn't",
+    "needn't"
+   ],
+   "correct": 0,
+   "explain": "can't — логический вывод «не может быть»."
+  },
+  {
+   "q": "What's the past form of «catch»?",
+   "options": [
+    "catched",
+    "caught",
+    "cought",
+    "catch"
+   ],
+   "correct": 1,
+   "explain": "catch – caught – caught."
+  },
+  {
+   "q": "I'm sorry ___ being late.",
+   "options": [
+    "for",
+    "about",
+    "to",
+    "of"
+   ],
+   "correct": 0,
+   "explain": "sorry for sth / sorry for doing sth."
+  },
+  {
+   "q": "Which sentence is correct?",
+   "options": [
+    "I listen music",
+    "I listen to music",
+    "I hear to music",
+    "I am listen music"
+   ],
+   "correct": 1,
+   "explain": "listen to sth — обязательно с to."
+  },
+  {
+   "q": "They have lived here ___ 2019.",
+   "options": [
+    "for",
+    "since",
+    "from",
+    "ago"
+   ],
+   "correct": 1,
+   "explain": "since + точка во времени."
+  },
+  {
+   "q": "I saw him two days ___.",
+   "options": [
+    "before",
+    "ago",
+    "since",
+    "later"
+   ],
+   "correct": 1,
+   "explain": "ago — тому назад: two days ago."
+  },
+  {
+   "q": "Make or do? «___ a mistake»",
+   "options": [
+    "do",
+    "make",
+    "take",
+    "have"
+   ],
+   "correct": 1,
+   "explain": "make a mistake. А do homework, do a favour."
+  },
+  {
+   "q": "Make or do? «___ your homework»",
+   "options": [
+    "make",
+    "do",
+    "take",
+    "have"
+   ],
+   "correct": 1,
+   "explain": "do homework."
+  },
+  {
+   "q": "Take or make? «___ a photo»",
+   "options": [
+    "make",
+    "do",
+    "take",
+    "have"
+   ],
+   "correct": 2,
+   "explain": "take a photo / take a picture."
+  },
+  {
+   "q": "She ___ to Paris twice.",
+   "options": [
+    "has been",
+    "has gone",
+    "goes",
+    "is going"
+   ],
+   "correct": 0,
+   "explain": "has been — была и вернулась. has gone — уехала и ещё там."
+  },
+  {
+   "q": "Where ___ you yesterday?",
+   "options": [
+    "was",
+    "were",
+    "did",
+    "are"
+   ],
+   "correct": 1,
+   "explain": "you → were."
+  },
+  {
+   "q": "My sister ___ a car.",
+   "options": [
+    "hasn't",
+    "doesn't have",
+    "don't have",
+    "haven't"
+   ],
+   "correct": 1,
+   "explain": "she → doesn't have."
+  },
+  {
+   "q": "There ___ a lot of people at the party.",
+   "options": [
+    "was",
+    "were",
+    "is",
+    "be"
+   ],
+   "correct": 1,
+   "explain": "people — мн. число → were."
+  },
+  {
+   "q": "She avoided ___ the question.",
+   "options": [
+    "answer",
+    "to answer",
+    "answering",
+    "answered"
+   ],
+   "correct": 2,
+   "explain": "avoid + -ing."
+  },
+  {
+   "q": "He decided ___ a new job.",
+   "options": [
+    "find",
+    "to find",
+    "finding",
+    "found"
+   ],
+   "correct": 1,
+   "explain": "decide + to + V."
+  },
+  {
+   "q": "The meeting was ___ because of the storm.",
+   "options": [
+    "called off",
+    "called on",
+    "called up",
+    "called in"
+   ],
+   "correct": 0,
+   "explain": "call off — отменить."
+  },
+  {
+   "q": "Please ___ this form.",
+   "options": [
+    "fill in",
+    "fill on",
+    "fill at",
+    "fill to"
+   ],
+   "correct": 0,
+   "explain": "fill in a form — заполнить анкету."
+  },
+  {
+   "q": "What does «spill the beans» mean?",
+   "options": [
+    "рассыпать бобы",
+    "выдать секрет",
+    "приготовить ужин",
+    "сильно устать"
+   ],
+   "correct": 1,
+   "explain": "spill the beans — проболтаться."
+  },
+  {
+   "q": "I ___ seen that film. Let's watch something else.",
+   "options": [
+    "already have",
+    "have already",
+    "has already",
+    "already"
+   ],
+   "correct": 1,
+   "explain": "already ставится между have и V3."
+  },
+  {
+   "q": "How ___ have you lived here?",
+   "options": [
+    "much",
+    "many",
+    "long",
+    "often"
+   ],
+   "correct": 2,
+   "explain": "Как долго — How long."
+  },
+  {
+   "q": "She is ___ honest person.",
+   "options": [
+    "a",
+    "an",
+    "the",
+    "—"
+   ],
+   "correct": 1,
+   "explain": "honest начинается с гласного звука [ɒ] → an."
+  },
+  {
+   "q": "He was so tired ___ he fell asleep at once.",
+   "options": [
+    "that",
+    "than",
+    "as",
+    "so"
+   ],
+   "correct": 0,
+   "explain": "so … that — так…, что."
+  },
+  {
+   "q": "You speak English, ___?",
+   "options": [
+    "isn't it",
+    "don't you",
+    "aren't you",
+    "do you"
+   ],
+   "correct": 1,
+   "explain": "Разделительный вопрос: you speak → don't you?"
+  },
+  {
+   "q": "The more you practise, ___ you get.",
+   "options": [
+    "the better",
+    "better",
+    "the best",
+    "more better"
+   ],
+   "correct": 0,
+   "explain": "The more…, the better… — чем больше…, тем лучше."
+  },
+  {
+   "q": "What's the past form of «teach»?",
+   "options": [
+    "teached",
+    "taught",
+    "tought",
+    "teach"
+   ],
+   "correct": 1,
+   "explain": "teach – taught – taught."
+  },
+  {
+   "q": "Choose the correct sentence:",
+   "options": [
+    "I'm student.",
+    "I'm a student.",
+    "I student.",
+    "I am the student."
+   ],
+   "correct": 1,
+   "explain": "Профессия/роль — с артиклем a: I'm a student."
+  },
+  {
+   "q": "«Overrated» means…",
+   "options": [
+    "переоценённый",
+    "недооценённый",
+    "просроченный",
+    "перегретый"
+   ],
+   "correct": 0,
+   "explain": "overrated — переоценённый."
+  },
+  {
+   "q": "I ___ English for two years before I moved here.",
+   "options": [
+    "have studied",
+    "had studied",
+    "study",
+    "am studying"
+   ],
+   "correct": 1,
+   "explain": "Past Perfect: раньше другого действия в прошлом."
+  },
+  {
+   "q": "Would you mind ___ the door?",
+   "options": [
+    "close",
+    "to close",
+    "closing",
+    "closed"
+   ],
+   "correct": 2,
+   "explain": "Would you mind + -ing?"
+  },
+  {
+   "q": "She's been on cloud nine. She's…",
+   "options": [
+    "very happy",
+    "very tired",
+    "in the sky",
+    "confused"
+   ],
+   "correct": 0,
+   "explain": "on cloud nine — на седьмом небе от счастья."
+  },
+  {
+   "q": "I can't afford ___ a new phone.",
+   "options": [
+    "buy",
+    "to buy",
+    "buying",
+    "bought"
+   ],
+   "correct": 1,
+   "explain": "afford + to + V."
+  }
+ ],
+ "questions": [
+  {
+   "q": "What's the best thing that happened to you this week?",
+   "ru": "Что лучшего случилось с вами на этой неделе?",
+   "starter": "The best thing this week was…"
+  },
+  {
+   "q": "If you could live in any country, where would it be?",
+   "ru": "Если бы можно было жить в любой стране, где бы это было?",
+   "starter": "I'd live in… because…"
+  },
+  {
+   "q": "What's your favourite English word and why?",
+   "ru": "Ваше любимое английское слово и почему?",
+   "starter": "My favourite word is… because…"
+  },
+  {
+   "q": "Describe your perfect weekend in 3 sentences.",
+   "ru": "Опишите идеальные выходные в 3 предложениях.",
+   "starter": "On my perfect weekend, I would…"
+  },
+  {
+   "q": "Tea or coffee? Explain your choice!",
+   "ru": "Чай или кофе? Объясните выбор!",
+   "starter": "I'm more of a … person because…"
+  },
+  {
+   "q": "What's one skill you'd love to learn?",
+   "ru": "Какой навык вы мечтаете освоить?",
+   "starter": "I'd love to learn how to…"
+  },
+  {
+   "q": "What's the last film you watched? Would you recommend it?",
+   "ru": "Какой фильм вы смотрели последним? Посоветуете?",
+   "starter": "The last film I watched was… I'd (not) recommend it because…"
+  },
+  {
+   "q": "What do you do when you procrastinate? 😅",
+   "ru": "Что вы делаете, когда откладываете дела?",
+   "starter": "When I procrastinate, I usually…"
+  },
+  {
+   "q": "Summer or winter? Why?",
+   "ru": "Лето или зима? Почему?",
+   "starter": "I prefer… because…"
+  },
+  {
+   "q": "What was your first English word?",
+   "ru": "Какое было ваше первое английское слово?",
+   "starter": "I think my first word was…"
+  },
+  {
+   "q": "If you had a free day tomorrow, what would you do?",
+   "ru": "Если бы завтра был свободный день, чем бы вы занялись?",
+   "starter": "If I had a free day, I would…"
+  },
+  {
+   "q": "Share an English song you love 🎵",
+   "ru": "Поделитесь любимой песней на английском",
+   "starter": "I love… by… because…"
+  },
+  {
+   "q": "What makes you feel grateful today?",
+   "ru": "За что вы благодарны сегодня?",
+   "starter": "Today I'm grateful for…"
+  },
+  {
+   "q": "What's the most spontaneous thing you've ever done?",
+   "ru": "Самый спонтанный поступок в вашей жизни?",
+   "starter": "Once I spontaneously…"
+  },
+  {
+   "q": "What's your favourite place in your city?",
+   "ru": "Ваше любимое место в вашем городе?",
+   "starter": "My favourite place is… because…"
+  },
+  {
+   "q": "What did you have for breakfast today?",
+   "ru": "Что вы ели на завтрак сегодня?",
+   "starter": "For breakfast I had…"
+  },
+  {
+   "q": "Describe your best friend in three words.",
+   "ru": "Опишите лучшего друга тремя словами.",
+   "starter": "My best friend is…, … and …"
+  },
+  {
+   "q": "What's a habit you want to start?",
+   "ru": "Какую привычку вы хотите завести?",
+   "starter": "I want to start…"
+  },
+  {
+   "q": "What's the best advice you've ever received?",
+   "ru": "Лучший совет, который вам давали?",
+   "starter": "The best advice I've ever got is…"
+  },
+  {
+   "q": "Mountains or the sea? Why?",
+   "ru": "Горы или море? Почему?",
+   "starter": "I'd choose… because…"
+  },
+  {
+   "q": "What app do you use most on your phone?",
+   "ru": "Каким приложением вы пользуетесь чаще всего?",
+   "starter": "I use … most because…"
+  },
+  {
+   "q": "What's something that always makes you smile?",
+   "ru": "Что всегда вызывает у вас улыбку?",
+   "starter": "… always makes me smile."
+  },
+  {
+   "q": "If you could have dinner with anyone, who would it be?",
+   "ru": "С кем бы вы поужинали, если бы могли выбрать любого?",
+   "starter": "I'd have dinner with… because…"
+  },
+  {
+   "q": "What's your dream job?",
+   "ru": "Работа вашей мечты?",
+   "starter": "My dream job is…"
+  },
+  {
+   "q": "What's the most beautiful place you've ever visited?",
+   "ru": "Самое красивое место, где вы были?",
+   "starter": "The most beautiful place I've visited is…"
+  },
+  {
+   "q": "Do you prefer books or films? Why?",
+   "ru": "Книги или фильмы? Почему?",
+   "starter": "I prefer… because…"
+  },
+  {
+   "q": "What's one thing you can't live without?",
+   "ru": "Без чего вы не можете жить?",
+   "starter": "I can't live without…"
+  },
+  {
+   "q": "What did you do last weekend?",
+   "ru": "Что вы делали в прошлые выходные?",
+   "starter": "Last weekend I…"
+  },
+  {
+   "q": "What's your favourite season and why?",
+   "ru": "Ваше любимое время года и почему?",
+   "starter": "My favourite season is… because…"
+  },
+  {
+   "q": "What would you do with a million dollars?",
+   "ru": "Что бы вы сделали с миллионом долларов?",
+   "starter": "With a million dollars, I would…"
+  },
+  {
+   "q": "What's a word in English that's hard for you to pronounce?",
+   "ru": "Какое английское слово вам трудно произносить?",
+   "starter": "For me, it's hard to say…"
+  },
+  {
+   "q": "Morning person or night owl?",
+   "ru": "Вы жаворонок или сова?",
+   "starter": "I'm a… because…"
+  },
+  {
+   "q": "What's your favourite dish to cook?",
+   "ru": "Ваше любимое блюдо, которое вы готовите?",
+   "starter": "I love cooking…"
+  },
+  {
+   "q": "What's the last thing you bought?",
+   "ru": "Что вы купили последним?",
+   "starter": "The last thing I bought was…"
+  },
+  {
+   "q": "Why are you learning English?",
+   "ru": "Зачем вы учите английский?",
+   "starter": "I'm learning English because…"
+  },
+  {
+   "q": "What's your favourite holiday?",
+   "ru": "Ваш любимый праздник?",
+   "starter": "My favourite holiday is… because…"
+  },
+  {
+   "q": "Cats or dogs? 🐶🐱",
+   "ru": "Кошки или собаки?",
+   "starter": "I'm a … person because…"
+  },
+  {
+   "q": "What's a country you'd love to visit?",
+   "ru": "В какую страну вы мечтаете поехать?",
+   "starter": "I'd love to visit… because…"
+  },
+  {
+   "q": "What's your guilty pleasure?",
+   "ru": "Ваше маленькое тайное удовольствие?",
+   "starter": "My guilty pleasure is…"
+  },
+  {
+   "q": "What was your favourite subject at school?",
+   "ru": "Ваш любимый предмет в школе?",
+   "starter": "My favourite subject was…"
+  },
+  {
+   "q": "What's something new you learned this week?",
+   "ru": "Что нового вы узнали на этой неделе?",
+   "starter": "This week I learned that…"
+  },
+  {
+   "q": "What do you do to relax?",
+   "ru": "Как вы расслабляетесь?",
+   "starter": "To relax, I usually…"
+  },
+  {
+   "q": "What's your favourite word in Russian? How would you translate it?",
+   "ru": "Ваше любимое русское слово? Как бы вы его перевели?",
+   "starter": "My favourite word is… It means…"
+  },
+  {
+   "q": "What's the best gift you've ever received?",
+   "ru": "Лучший подарок, который вы получали?",
+   "starter": "The best gift I've ever got was…"
+  },
+  {
+   "q": "Describe your ideal morning.",
+   "ru": "Опишите ваше идеальное утро.",
+   "starter": "My ideal morning starts with…"
+  },
+  {
+   "q": "What's a skill you're proud of?",
+   "ru": "Каким навыком вы гордитесь?",
+   "starter": "I'm proud that I can…"
+  },
+  {
+   "q": "If you could speak any language fluently, which one?",
+   "ru": "Каким языком вы бы хотели владеть свободно?",
+   "starter": "I'd like to speak… fluently because…"
+  },
+  {
+   "q": "What's your favourite way to travel: plane, train or car?",
+   "ru": "Как вы любите путешествовать: самолёт, поезд или машина?",
+   "starter": "I prefer travelling by… because…"
+  },
+  {
+   "q": "What small thing made you happy today?",
+   "ru": "Какая мелочь порадовала вас сегодня?",
+   "starter": "Today I was happy because…"
+  },
+  {
+   "q": "What's a film you can watch again and again?",
+   "ru": "Какой фильм вы можете пересматривать бесконечно?",
+   "starter": "I can watch … again and again."
+  },
+  {
+   "q": "What's the hardest thing about learning English?",
+   "ru": "Что самое сложное в изучении английского?",
+   "starter": "For me, the hardest thing is…"
+  },
+  {
+   "q": "Do you like cooking or eating out more?",
+   "ru": "Что вы больше любите — готовить или есть вне дома?",
+   "starter": "I prefer… because…"
+  },
+  {
+   "q": "What would your perfect holiday look like?",
+   "ru": "Каким был бы ваш идеальный отпуск?",
+   "starter": "My perfect holiday would be…"
+  },
+  {
+   "q": "What's a goal you have for this year?",
+   "ru": "Какая у вас цель на этот год?",
+   "starter": "This year I want to…"
+  },
+  {
+   "q": "What's your earliest childhood memory?",
+   "ru": "Ваше самое раннее детское воспоминание?",
+   "starter": "My earliest memory is…"
+  },
+  {
+   "q": "What's the most useful thing you own?",
+   "ru": "Самая полезная вещь, которая у вас есть?",
+   "starter": "The most useful thing I own is…"
+  },
+  {
+   "q": "If you could live in any era, which would you choose?",
+   "ru": "В какой эпохе вы бы хотели жить?",
+   "starter": "I'd live in… because…"
+  },
+  {
+   "q": "What do you usually do on Sunday evenings?",
+   "ru": "Что вы обычно делаете в воскресенье вечером?",
+   "starter": "On Sunday evenings, I usually…"
+  },
+  {
+   "q": "What's a food you hated as a child but love now?",
+   "ru": "Какую еду вы ненавидели в детстве, а теперь любите?",
+   "starter": "As a child I hated…, but now…"
+  },
+  {
+   "q": "Beach holiday or city break?",
+   "ru": "Пляжный отдых или городская поездка?",
+   "starter": "I'd choose… because…"
+  },
+  {
+   "q": "What's something you're looking forward to?",
+   "ru": "Чего вы ждёте с нетерпением?",
+   "starter": "I'm looking forward to…"
+  },
+  {
+   "q": "What's your favourite quote?",
+   "ru": "Ваша любимая цитата?",
+   "starter": "My favourite quote is… It means…"
+  },
+  {
+   "q": "What would you name a pet dragon? 🐉",
+   "ru": "Как бы вы назвали домашнего дракона?",
+   "starter": "I'd call it… because…"
+  },
+  {
+   "q": "Describe your hometown in one sentence.",
+   "ru": "Опишите ваш родной город одним предложением.",
+   "starter": "My hometown is…"
+  },
+  {
+   "q": "What's a tradition in your family?",
+   "ru": "Какая традиция есть в вашей семье?",
+   "starter": "In my family, we always…"
+  },
+  {
+   "q": "Coffee shop or home — where do you work better?",
+   "ru": "Где вам лучше работается — в кафе или дома?",
+   "starter": "I work better… because…"
+  },
+  {
+   "q": "What's one thing you'd change about the world?",
+   "ru": "Что бы вы изменили в мире?",
+   "starter": "I'd change…"
+  },
+  {
+   "q": "What's the funniest thing that happened to you recently?",
+   "ru": "Самое смешное, что случилось с вами недавно?",
+   "starter": "Recently, something funny happened…"
+  },
+  {
+   "q": "What's your superpower? 🦸",
+   "ru": "Ваша суперсила?",
+   "starter": "My superpower is…"
+  },
+  {
+   "q": "Plan your perfect Saturday in English!",
+   "ru": "Спланируйте идеальную субботу на английском!",
+   "starter": "On my perfect Saturday, I'd…"
+  },
+  {
+   "q": "What's the best meal you've ever had?",
+   "ru": "Самая вкусная еда в вашей жизни?",
+   "starter": "The best meal I've ever had was…"
+  },
+  {
+   "q": "What's a place you'd never visit again? Why?",
+   "ru": "Куда бы вы больше никогда не поехали? Почему?",
+   "starter": "I'd never go back to… because…"
+  },
+  {
+   "q": "Who is your role model?",
+   "ru": "Кто ваш пример для подражания?",
+   "starter": "My role model is… because…"
+  },
+  {
+   "q": "What's something you're really good at?",
+   "ru": "В чём вы действительно хороши?",
+   "starter": "I'm really good at…"
+  },
+  {
+   "q": "What's your favourite smell?",
+   "ru": "Ваш любимый запах?",
+   "starter": "My favourite smell is…"
+  },
+  {
+   "q": "If you could learn any instrument, what would it be?",
+   "ru": "На каком инструменте вы бы хотели научиться играть?",
+   "starter": "I'd love to play… because…"
+  },
+  {
+   "q": "What does your perfect evening look like?",
+   "ru": "Как выглядит ваш идеальный вечер?",
+   "starter": "My perfect evening is…"
+  },
+  {
+   "q": "What's the most interesting job you can imagine?",
+   "ru": "Самая интересная работа, которую вы можете представить?",
+   "starter": "The most interesting job is…"
+  },
+  {
+   "q": "What's the first thing you do in the morning?",
+   "ru": "Что вы делаете первым делом утром?",
+   "starter": "The first thing I do is…"
+  },
+  {
+   "q": "What's a song that reminds you of summer?",
+   "ru": "Какая песня напоминает вам о лете?",
+   "starter": "… always reminds me of summer."
+  },
+  {
+   "q": "What's your favourite time of day?",
+   "ru": "Ваше любимое время суток?",
+   "starter": "My favourite time of day is… because…"
+  },
+  {
+   "q": "If you could change your name, what would you choose?",
+   "ru": "Если бы вы могли сменить имя, какое бы выбрали?",
+   "starter": "I'd choose… because…"
+  },
+  {
+   "q": "What's a book everyone should read?",
+   "ru": "Какую книгу должен прочитать каждый?",
+   "starter": "Everyone should read…"
+  },
+  {
+   "q": "What's your favourite fruit in Vietnam? 🥭",
+   "ru": "Ваш любимый фрукт во Вьетнаме?",
+   "starter": "My favourite fruit is…"
+  },
+  {
+   "q": "What was the last thing that made you laugh?",
+   "ru": "Что вас рассмешило в последний раз?",
+   "starter": "The last thing that made me laugh was…"
+  },
+  {
+   "q": "Would you rather be able to fly or be invisible?",
+   "ru": "Вы бы предпочли летать или быть невидимкой?",
+   "starter": "I'd rather… because…"
+  },
+  {
+   "q": "What's one thing on your bucket list?",
+   "ru": "Что есть в вашем списке «успеть сделать»?",
+   "starter": "One thing on my bucket list is…"
+  },
+  {
+   "q": "What do you usually do on your birthday?",
+   "ru": "Что вы обычно делаете в свой день рождения?",
+   "starter": "On my birthday, I usually…"
+  },
+  {
+   "q": "What's the most important quality in a friend?",
+   "ru": "Самое важное качество в друге?",
+   "starter": "The most important quality is…"
+  },
+  {
+   "q": "What's a sport you enjoy watching or playing?",
+   "ru": "Какой спорт вам нравится смотреть или им заниматься?",
+   "starter": "I enjoy…"
+  },
+  {
+   "q": "Describe the view from your window.",
+   "ru": "Опишите вид из вашего окна.",
+   "starter": "From my window, I can see…"
+  },
+  {
+   "q": "What's something you've never tried but want to?",
+   "ru": "Что вы никогда не пробовали, но хотите?",
+   "starter": "I've never tried…, but I'd like to."
+  },
+  {
+   "q": "What's your favourite thing about weekends?",
+   "ru": "Что вы больше всего любите в выходных?",
+   "starter": "My favourite thing about weekends is…"
+  },
+  {
+   "q": "What's a mistake you learned a lot from?",
+   "ru": "Ошибка, которая многому вас научила?",
+   "starter": "Once I made a mistake… and I learned…"
+  },
+  {
+   "q": "Do you prefer to plan everything or be spontaneous?",
+   "ru": "Вы любите всё планировать или действовать спонтанно?",
+   "starter": "I prefer to… because…"
+  },
+  {
+   "q": "What's your favourite drink?",
+   "ru": "Ваш любимый напиток?",
+   "starter": "My favourite drink is…"
+  },
+  {
+   "q": "What makes a good teacher?",
+   "ru": "Каким должен быть хороший учитель?",
+   "starter": "A good teacher is…"
+  },
+  {
+   "q": "What's the strangest food you've ever tried?",
+   "ru": "Самая странная еда, которую вы пробовали?",
+   "starter": "The strangest food I've tried was…"
+  },
+  {
+   "q": "Where do you see yourself in five years?",
+   "ru": "Где вы видите себя через пять лет?",
+   "starter": "In five years, I'd like to…"
+  },
+  {
+   "q": "What's a hobby you'd like to try?",
+   "ru": "Какое хобби вы бы хотели попробовать?",
+   "starter": "I'd like to try…"
+  },
+  {
+   "q": "What's your favourite emoji and why? 😄",
+   "ru": "Ваш любимый эмодзи и почему?",
+   "starter": "My favourite emoji is… because…"
+  },
+  {
+   "q": "What do you like most about the place you live?",
+   "ru": "Что вам больше всего нравится в месте, где вы живёте?",
+   "starter": "What I like most is…"
+  },
+  {
+   "q": "If you could master one skill overnight, what would it be?",
+   "ru": "Какой навык вы бы хотели освоить за одну ночь?",
+   "starter": "I'd master… overnight."
+  },
+  {
+   "q": "What's the nicest thing a stranger has done for you?",
+   "ru": "Самое приятное, что для вас сделал незнакомец?",
+   "starter": "Once a stranger…"
+  },
+  {
+   "q": "What's a TV series you'd recommend?",
+   "ru": "Какой сериал вы бы посоветовали?",
+   "starter": "I'd recommend… because…"
+  },
+  {
+   "q": "What do you do when you can't sleep?",
+   "ru": "Что вы делаете, когда не можете уснуть?",
+   "starter": "When I can't sleep, I…"
+  },
+  {
+   "q": "What's your favourite memory from last year?",
+   "ru": "Ваше любимое воспоминание прошлого года?",
+   "starter": "My favourite memory is…"
+  },
+  {
+   "q": "Rain or sunshine — which mood are you today? ☀️🌧",
+   "ru": "Дождь или солнце — какое у вас сегодня настроение?",
+   "starter": "Today I'm… because…"
+  },
+  {
+   "q": "What three things would you take to a desert island?",
+   "ru": "Какие три вещи вы бы взяли на необитаемый остров?",
+   "starter": "I'd take…, … and …"
+  },
+  {
+   "q": "What English word did you learn this week?",
+   "ru": "Какое английское слово вы выучили на этой неделе?",
+   "starter": "This week I learned the word… It means…"
+  }
+ ],
+ "mistakes": [
+  {
+   "wrong": "I am agree with you.",
+   "right": "I agree with you.",
+   "why": "agree — это глагол, ему не нужен am. Как «я соглашаюсь», а не «я есть соглашаюсь»."
+  },
+  {
+   "wrong": "I very like this film.",
+   "right": "I really like this film. / I like this film very much.",
+   "why": "very не ставится перед глаголом. Используйте really перед глаголом или very much в конце."
+  },
+  {
+   "wrong": "He said me the truth.",
+   "right": "He told me the truth. / He said the truth to me.",
+   "why": "tell + кому (told me), say + что (said that…). После say нужен to: said to me."
+  },
+  {
+   "wrong": "I have 25 years.",
+   "right": "I'm 25. / I'm 25 years old.",
+   "why": "Возраст в английском — через be: I am 25. Have здесь калька с других языков."
+  },
+  {
+   "wrong": "Can you explain me this rule?",
+   "right": "Can you explain this rule to me?",
+   "why": "explain sth to sb — объяснять что-то кому-то. Без to нельзя."
+  },
+  {
+   "wrong": "I'm so boring today.",
+   "right": "I'm so bored today.",
+   "why": "bored — мне скучно. boring — я скучный (как человек). То же: interested / interesting, tired / tiring."
+  },
+  {
+   "wrong": "Thank you for the informations!",
+   "right": "Thank you for the information!",
+   "why": "information — неисчисляемое: никаких -s и an. Нужно «одна информация» — a piece of information."
+  },
+  {
+   "wrong": "It depends from the weather.",
+   "right": "It depends on the weather.",
+   "why": "depend on — устойчивое сочетание. Никаких from или of."
+  },
+  {
+   "wrong": "How is it called in English?",
+   "right": "What is it called in English?",
+   "why": "В английском спрашиваем «Что это называется?» — What, а не How."
+  },
+  {
+   "wrong": "Let's make a photo!",
+   "right": "Let's take a photo!",
+   "why": "Фото в английском «берут»: take a photo / take a picture."
+  },
+  {
+   "wrong": "I'll call you when I will arrive.",
+   "right": "I'll call you when I arrive.",
+   "why": "После when, if, as soon as, before, after будущее время передаётся через Present Simple."
+  },
+  {
+   "wrong": "It's depends.",
+   "right": "It depends.",
+   "why": "It's = It is. «It is depends» — два сказуемых сразу. Достаточно depends."
+  },
+  {
+   "wrong": "I listen music every day.",
+   "right": "I listen to music every day.",
+   "why": "listen to sth — после listen всегда to. Но: I'm listening! (без объекта — без to)."
+  },
+  {
+   "wrong": "I didn't went there.",
+   "right": "I didn't go there.",
+   "why": "После did / didn't — только первая форма глагола. Прошедшее время уже «живёт» в did."
+  },
+  {
+   "wrong": "I want that you come.",
+   "right": "I want you to come.",
+   "why": "want sb to do sth — без that."
+  },
+  {
+   "wrong": "She is married with a doctor.",
+   "right": "She is married to a doctor.",
+   "why": "married to sb — замужем за кем-то."
+  },
+  {
+   "wrong": "I'm afraid from dogs.",
+   "right": "I'm afraid of dogs.",
+   "why": "afraid of sth — бояться чего-то."
+  },
+  {
+   "wrong": "He is good in English.",
+   "right": "He is good at English.",
+   "why": "good at sth — хорош в чём-то."
+  },
+  {
+   "wrong": "I have been in London last year.",
+   "right": "I was in London last year.",
+   "why": "last year — точное время в прошлом → Past Simple."
+  },
+  {
+   "wrong": "Where you live?",
+   "right": "Where do you live?",
+   "why": "В вопросах в Present Simple нужен помощник do/does."
+  },
+  {
+   "wrong": "She don't like coffee.",
+   "right": "She doesn't like coffee.",
+   "why": "he/she/it → doesn't."
+  },
+  {
+   "wrong": "I am here since Monday.",
+   "right": "I have been here since Monday.",
+   "why": "since + длительность до сих пор → Present Perfect."
+  },
+  {
+   "wrong": "Thanks God!",
+   "right": "Thank God!",
+   "why": "Устойчивое выражение: Thank God!"
+  },
+  {
+   "wrong": "I'm boring at home.",
+   "right": "I'm bored at home.",
+   "why": "bored — мне скучно; boring — я скучный."
+  },
+  {
+   "wrong": "Do you have a pen? — Yes, I do have.",
+   "right": "Yes, I do. / Yes, I have.",
+   "why": "Краткий ответ: Yes, I do. Без повторения have."
+  },
+  {
+   "wrong": "I go to home.",
+   "right": "I go home.",
+   "why": "home без предлога to: go home, come home."
+  },
+  {
+   "wrong": "He has 30 years old.",
+   "right": "He is 30 years old.",
+   "why": "Возраст — через be."
+  },
+  {
+   "wrong": "Can you say me the time?",
+   "right": "Can you tell me the time?",
+   "why": "tell sb sth; say sth (to sb)."
+  },
+  {
+   "wrong": "I didn't saw him.",
+   "right": "I didn't see him.",
+   "why": "После didn't — инфинитив без to."
+  },
+  {
+   "wrong": "She sings very good.",
+   "right": "She sings very well.",
+   "why": "Глагол описывается наречием well."
+  },
+  {
+   "wrong": "It's very delicious!",
+   "right": "It's absolutely delicious! / It's really tasty!",
+   "why": "delicious уже значит «очень вкусно» — very с ним не ставят."
+  },
+  {
+   "wrong": "I live here for 5 years.",
+   "right": "I've lived here for 5 years.",
+   "why": "Действие длится до сих пор → Present Perfect."
+  },
+  {
+   "wrong": "I'm agree.",
+   "right": "I agree.",
+   "why": "agree — глагол, am лишнее."
+  },
+  {
+   "wrong": "Let's discuss about it.",
+   "right": "Let's discuss it.",
+   "why": "discuss без about. Но: talk about it."
+  },
+  {
+   "wrong": "I need to make my homework.",
+   "right": "I need to do my homework.",
+   "why": "do homework, а не make."
+  },
+  {
+   "wrong": "What means this word?",
+   "right": "What does this word mean?",
+   "why": "Вопрос с помощником does + mean."
+  },
+  {
+   "wrong": "He explained me the rule.",
+   "right": "He explained the rule to me.",
+   "why": "explain sth to sb."
+  },
+  {
+   "wrong": "I'm waiting you.",
+   "right": "I'm waiting for you.",
+   "why": "wait for sb."
+  },
+  {
+   "wrong": "She arrived to Moscow.",
+   "right": "She arrived in Moscow.",
+   "why": "arrive in (город, страна), arrive at (здание)."
+  },
+  {
+   "wrong": "I like very much pizza.",
+   "right": "I like pizza very much.",
+   "why": "very much ставится в конец."
+  },
+  {
+   "wrong": "Every people are different.",
+   "right": "Everybody is different. / All people are different.",
+   "why": "every + единственное число; people — множественное."
+  },
+  {
+   "wrong": "I enjoyed.",
+   "right": "I enjoyed it. / I had fun.",
+   "why": "enjoy требует дополнения: enjoy it, enjoy yourself."
+  },
+  {
+   "wrong": "He's more taller than me.",
+   "right": "He's taller than me.",
+   "why": "more не ставится с -er."
+  },
+  {
+   "wrong": "I have a question to you.",
+   "right": "I have a question for you.",
+   "why": "a question for sb."
+  },
+  {
+   "wrong": "Look at this informations.",
+   "right": "Look at this information.",
+   "why": "information — неисчисляемое."
+  },
+  {
+   "wrong": "I'll be back after 10 minutes.",
+   "right": "I'll be back in 10 minutes.",
+   "why": "in + время — «через» в будущем."
+  },
+  {
+   "wrong": "Let's go to shopping.",
+   "right": "Let's go shopping.",
+   "why": "go + -ing без to: go shopping, go swimming."
+  },
+  {
+   "wrong": "I'm very hungry, I want to eat something sweety.",
+   "right": "I want something sweet.",
+   "why": "Прилагательное — sweet. sweetie — «милашка»."
+  },
+  {
+   "wrong": "Open the light, please.",
+   "right": "Turn on the light, please.",
+   "why": "Свет включают: turn on / switch on."
+  },
+  {
+   "wrong": "I'm living in Vietnam.",
+   "right": "I live in Vietnam.",
+   "why": "Постоянное место жительства — Present Simple. I'm living — временно."
+  },
+  {
+   "wrong": "My dad works like a doctor.",
+   "right": "My dad works as a doctor.",
+   "why": "as — в качестве; like — как будто."
+  },
+  {
+   "wrong": "She has long hairs.",
+   "right": "She has long hair.",
+   "why": "hair (волосы на голове) — неисчисляемое."
+  },
+  {
+   "wrong": "I'll call you when I'll be free.",
+   "right": "I'll call you when I'm free.",
+   "why": "После when — Present Simple."
+  },
+  {
+   "wrong": "We were in the cinema yesterday.",
+   "right": "We went to the cinema yesterday. / We were at the cinema.",
+   "why": "Ходить в кино — go to the cinema; быть в кино — at the cinema."
+  },
+  {
+   "wrong": "I'm sorry, I'm late. The traffic was very big.",
+   "right": "The traffic was very heavy / bad.",
+   "why": "Пробки — heavy traffic."
+  },
+  {
+   "wrong": "I made a photo of the sea.",
+   "right": "I took a photo of the sea.",
+   "why": "take a photo."
+  },
+  {
+   "wrong": "Give me please the menu.",
+   "right": "Could I have the menu, please?",
+   "why": "Вежливая просьба звучит естественнее."
+  },
+  {
+   "wrong": "I don't know what does it mean.",
+   "right": "I don't know what it means.",
+   "why": "Косвенный вопрос — прямой порядок слов."
+  },
+  {
+   "wrong": "It's raining strongly.",
+   "right": "It's raining heavily.",
+   "why": "Сильный дождь — heavy rain, rain heavily."
+  },
+  {
+   "wrong": "Speak more loud, please.",
+   "right": "Speak louder, please.",
+   "why": "loud → louder."
+  },
+  {
+   "wrong": "I very want to visit Japan.",
+   "right": "I really want to visit Japan.",
+   "why": "very не ставится перед глаголом."
+  },
+  {
+   "wrong": "Yesterday I have seen a great film.",
+   "right": "Yesterday I saw a great film.",
+   "why": "yesterday → Past Simple."
+  },
+  {
+   "wrong": "He gave me an advice.",
+   "right": "He gave me some advice / a piece of advice.",
+   "why": "advice — неисчисляемое."
+  },
+  {
+   "wrong": "I go to sleep at 11 o'clock in the night.",
+   "right": "I go to bed at 11 p.m. / at 11 at night.",
+   "why": "at night, in the evening."
+  },
+  {
+   "wrong": "How do you think?",
+   "right": "What do you think?",
+   "why": "Спрашиваем мнение: What do you think?"
+  },
+  {
+   "wrong": "I'm going to my friend.",
+   "right": "I'm going to my friend's (place).",
+   "why": "К другу домой — to my friend's."
+  },
+  {
+   "wrong": "I feel myself well.",
+   "right": "I feel well / good.",
+   "why": "feel без myself."
+  },
+  {
+   "wrong": "Congratulations with your birthday!",
+   "right": "Happy birthday! / Congratulations on your promotion!",
+   "why": "Congratulations on sth. С днём рождения — Happy birthday!"
+  },
+  {
+   "wrong": "Everybody have a phone.",
+   "right": "Everybody has a phone.",
+   "why": "everybody, everyone — единственное число → has."
+  },
+  {
+   "wrong": "I'm going to the bed.",
+   "right": "I'm going to bed.",
+   "why": "go to bed — без артикля."
+  },
+  {
+   "wrong": "She's very kind, isn't it?",
+   "right": "She's very kind, isn't she?",
+   "why": "В разделительном вопросе повторяем местоимение: isn't she?"
+  },
+  {
+   "wrong": "Me and my friend went to the beach.",
+   "right": "My friend and I went to the beach.",
+   "why": "В роли подлежащего — I, и себя называем последним."
+  },
+  {
+   "wrong": "Who did call you?",
+   "right": "Who called you?",
+   "why": "Если who — подлежащее, did не нужен."
+  },
+  {
+   "wrong": "I prefer tea than coffee.",
+   "right": "I prefer tea to coffee.",
+   "why": "prefer A to B."
+  },
+  {
+   "wrong": "It's difficult for me speak English.",
+   "right": "It's difficult for me to speak English.",
+   "why": "It's difficult (for sb) to do sth."
+  },
+  {
+   "wrong": "The people is very friendly here.",
+   "right": "The people are very friendly here.",
+   "why": "people — множественное число → are."
+  },
+  {
+   "wrong": "I'm used to wake up early.",
+   "right": "I'm used to waking up early.",
+   "why": "be used to + -ing."
+  },
+  {
+   "wrong": "I'm thinking to buy a car.",
+   "right": "I'm thinking of buying a car.",
+   "why": "think of/about + -ing."
+  },
+  {
+   "wrong": "She has a lot of luggages.",
+   "right": "She has a lot of luggage.",
+   "why": "luggage — неисчисляемое."
+  },
+  {
+   "wrong": "I have a headache since morning.",
+   "right": "I've had a headache since morning.",
+   "why": "since → Present Perfect."
+  },
+  {
+   "wrong": "It was a great fun!",
+   "right": "It was great fun!",
+   "why": "fun — неисчисляемое, без a."
+  },
+  {
+   "wrong": "She suggested me to go.",
+   "right": "She suggested that I go. / She suggested going.",
+   "why": "suggest sb to do — ошибка."
+  },
+  {
+   "wrong": "I look forward to see you.",
+   "right": "I look forward to seeing you.",
+   "why": "look forward to + -ing."
+  },
+  {
+   "wrong": "I'm interesting in music.",
+   "right": "I'm interested in music.",
+   "why": "interested — мне интересно; interesting — я интересный."
+  },
+  {
+   "wrong": "My English is not so well.",
+   "right": "My English is not very good.",
+   "why": "English — существительное, описываем прилагательным good."
+  },
+  {
+   "wrong": "I have many works.",
+   "right": "I have a lot of work.",
+   "why": "work (работа) — неисчисляемое."
+  },
+  {
+   "wrong": "Do you can help me?",
+   "right": "Can you help me?",
+   "why": "can сам образует вопрос, do не нужен."
+  },
+  {
+   "wrong": "I want to buy new furnitures.",
+   "right": "I want to buy new furniture.",
+   "why": "furniture — неисчисляемое."
+  },
+  {
+   "wrong": "This is the car of my father.",
+   "right": "This is my father's car.",
+   "why": "Принадлежность людям — через 's."
+  },
+  {
+   "wrong": "In the photo, I'm in the left.",
+   "right": "In the photo, I'm on the left.",
+   "why": "on the left / on the right."
+  },
+  {
+   "wrong": "We have a meeting in Monday.",
+   "right": "We have a meeting on Monday.",
+   "why": "Дни недели — on."
+  },
+  {
+   "wrong": "I was born in 5th May.",
+   "right": "I was born on 5th May.",
+   "why": "Даты — on."
+  },
+  {
+   "wrong": "He entered into the room.",
+   "right": "He entered the room.",
+   "why": "enter — без into."
+  },
+  {
+   "wrong": "I'm reading this book since two weeks.",
+   "right": "I've been reading this book for two weeks.",
+   "why": "Длительность до сих пор: have been + -ing + for."
+  },
+  {
+   "wrong": "She returned back home.",
+   "right": "She returned home.",
+   "why": "return уже значит «вернуться» — back лишнее."
+  },
+  {
+   "wrong": "My trousers is dirty.",
+   "right": "My trousers are dirty.",
+   "why": "trousers, jeans, glasses — всегда множественное число."
+  },
+  {
+   "wrong": "Let me to explain.",
+   "right": "Let me explain.",
+   "why": "let sb do sth — без to."
+  },
+  {
+   "wrong": "I can to swim.",
+   "right": "I can swim.",
+   "why": "После модальных can, must, should — без to."
+  },
+  {
+   "wrong": "How long time does it take?",
+   "right": "How long does it take?",
+   "why": "How long уже значит «сколько времени»."
+  },
+  {
+   "wrong": "There is many people here.",
+   "right": "There are many people here.",
+   "why": "many people → there are."
+  },
+  {
+   "wrong": "She plays the tennis.",
+   "right": "She plays tennis.",
+   "why": "Виды спорта — без артикля."
+  },
+  {
+   "wrong": "The life is beautiful.",
+   "right": "Life is beautiful.",
+   "why": "Абстрактные понятия в общем смысле — без the."
+  },
+  {
+   "wrong": "I go to the work by bike.",
+   "right": "I go to work by bike.",
+   "why": "go to work — без артикля."
+  },
+  {
+   "wrong": "I was very worry.",
+   "right": "I was very worried.",
+   "why": "worried — прилагательное; worry — глагол."
+  },
+  {
+   "wrong": "It's a good news!",
+   "right": "It's good news!",
+   "why": "news — неисчисляемое, без a."
+  },
+  {
+   "wrong": "I'm searching my keys.",
+   "right": "I'm looking for my keys.",
+   "why": "Искать потерянное — look for. search — обыскивать место."
+  },
+  {
+   "wrong": "Repeat again, please.",
+   "right": "Could you repeat that, please?",
+   "why": "repeat уже значит «ещё раз»."
+  },
+  {
+   "wrong": "I visited to my grandma.",
+   "right": "I visited my grandma.",
+   "why": "visit sb — без to."
+  },
+  {
+   "wrong": "Which is your name?",
+   "right": "What's your name?",
+   "why": "Имя — What's your name?"
+  },
+  {
+   "wrong": "I came to Vietnam 3 years before.",
+   "right": "I came to Vietnam 3 years ago.",
+   "why": "«тому назад» от сегодня — ago."
+  }
+ ],
+ "promos": [
+  {
+   "text": "📘 <b>English Grammar Guide</b> by @English_with_Yev\n\nУстали путаться во временах? Все времена английского — в одном красивом справочнике: понятные схемы, примеры и упражнения с ответами.\n\n👉 Подробности — в закреплённом сообщении канала или напишите мне в личку!",
+   "button": "",
+   "url": ""
+  },
+  {
+   "text": "🗂 <b>Копилка учителя</b>\n\nГотовые планы уроков для всех уровней — от Starter до Advanced. Берите и проводите: задания, игры, разговорные темы.\n\n✉️ Хотите доступ? Напишите мне в личку канала!",
+   "button": "",
+   "url": ""
+  },
+  {
+   "text": "🤖 <b>Хотите практиковать английский каждый день?</b>\n\nSmall Talk Buddy — бот-собеседник: пишите или отправляйте голосовые на английском, он ответит и поддержит разговор 💬\n\nНе бойтесь ошибок — просто начните!",
+   "button": "Поговорить с ботом",
+   "url": "https://t.me/Buddyevbot"
+  },
+  {
+   "text": "📒 <b>Конспекты Spotlight 3–8</b>\n\nКратко и наглядно по каждому модулю: слова, грамматика, правила. Удобно для школьников, родителей и учителей.\n\n✉️ Пишите в личку канала — расскажу подробнее!",
+   "button": "",
+   "url": ""
+  },
+  {
+   "text": "🗣 <b>Разговорный клуб English with Yev</b>\n\nХотите заговорить свободно? Приходите в разговорный клуб: живое общение, интересные темы и поддержка преподавателя с опытом 10+ лет.\n\n✉️ Записывайтесь в личке канала!",
+   "button": "",
+   "url": ""
+  },
+  {
+   "text": "🗣 <b>Разговорники Spoken English</b>\n\nМагазин, отель, аэропорт, больница, ресторан, «как пройти» — готовые фразы для каждой ситуации. Удобно перед поездкой!\n\n✉️ Пишите в личку канала — пришлю подробности.",
+   "button": "",
+   "url": ""
+  },
+  {
+   "text": "🎬 <b>Английский по мультфильмам</b>\n\nУроки для 1–6 классов по Toy Story, Zootopia и мультфильмам Pixar — по модулям Spotlight. Дети учат язык и даже не замечают 😉\n\n✉️ Пишите в личку канала!",
+   "button": "",
+   "url": ""
+  },
+  {
+   "text": "🍿 <b>Английский по фильмам для взрослых</b>\n\n«Зелёная миля», «Красотка» и другие любимые фильмы — лексика, задания и разговорная практика.\n\n✉️ Хотите попробовать? Пишите в личку канала!",
+   "button": "",
+   "url": ""
+  },
+  {
+   "text": "📚 <b>Курс английского для 1–11 классов</b>\n\nStudent's Book и Workbook для каждого класса — в стиле Oxford, понятно и красиво.\n\n✉️ Подробности — в личке канала.",
+   "button": "",
+   "url": ""
+  },
+  {
+   "text": "🐶 <b>Mia's English Adventures</b>\n\nКомикс на английском для детей 6–10 лет (A1) про бигля Мию. Читаем, смеёмся и выполняем задания!\n\n✉️ Пишите в личку канала, расскажу подробнее.",
+   "button": "",
+   "url": ""
+  },
+  {
+   "text": "🔤 <b>Phonics with Yev</b>\n\nПособие по чтению для детей по системе phonics — с аудио для каждого звука. Учим читать по-английски легко и правильно.\n\n✉️ Пишите в личку канала!",
+   "button": "",
+   "url": ""
+  },
+  {
+   "text": "🎤 <b>Рабочие листы «73 Questions»</b>\n\nУчим английский по интервью звёзд Vogue: живые выражения и задания на практику. Идеально для уровней B1+.\n\n✉️ Хотите комплект? Пишите в личку канала!",
+   "button": "",
+   "url": ""
+  },
+  {
+   "text": "👩‍🏫 <b>Индивидуальные уроки с Евгенией</b>\n\nПреподаватель с опытом 10+ лет. Разговорный английский, подготовка к экзаменам, английский для путешествий и работы.\n\n✉️ Запишитесь на пробный урок в личке канала!",
+   "button": "",
+   "url": ""
+  },
+  {
+   "text": "📣 <b>Учите английский вместе с друзьями!</b>\n\nКаждый день здесь — слово, фраза, ошибка дня, викторина и вопрос для обсуждения. Поделитесь каналом с тем, кто тоже учит английский 💛\n\n👉 Просто перешлите этот пост!",
+   "button": "",
+   "url": ""
+  },
+  {
+   "text": "⏰ <b>English Grammar Guide: все времена на одной странице</b>\n\nСхемы, таблицы и примеры, после которых Present Perfect перестанет пугать 😉 Плюс упражнения с ответами.\n\n✉️ Пишите в личку канала!",
+   "button": "",
+   "url": ""
+  },
+  {
+   "text": "💬 <b>Небольшой лайфхак для практики</b>\n\nБот Small Talk Buddy болтает с вами на английском 24/7 — текстом или голосом. 10 минут в день, и говорить станет легче!",
+   "button": "Поговорить с ботом",
+   "url": "https://t.me/Buddyevbot"
+  }
+ ]
 }

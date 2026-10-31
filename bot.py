@@ -74,13 +74,31 @@ def day_index(shift: int = 0) -> int:
     return (today() - START_DATE).days + shift
 
 
-def pick(kind: str, shift: int = 0) -> dict:
-    """Элемент на сегодня: номер дня от START_DATE по кругу."""
+def _position(kind: str, shift: int = 0) -> tuple[int, int]:
+    """(номер круга, позиция внутри круга) для рубрики на нужный день."""
     items = CONTENT[KEYS[kind]]
     idx = day_index(shift)
     if kind == "promo":
         idx //= 7  # промо раз в неделю → своя нумерация по неделям
-    return items[idx % len(items)]
+    return divmod(idx, len(items))
+
+
+def _order(kind: str, cycle: int) -> list[int]:
+    """Всегда один и тот же порядок: каждый пост повторяется не чаще, чем раз в len(база) дней."""
+    return list(range(len(CONTENT[KEYS[kind]])))
+
+
+def pick(kind: str, shift: int = 0) -> dict:
+    """Элемент на нужный день: идём по базе, без повторов внутри круга."""
+    cycle, pos = _position(kind, shift)
+    return CONTENT[KEYS[kind]][_order(kind, cycle)[pos]]
+
+
+def days_left(kind: str) -> int:
+    """Сколько публикаций осталось до конца текущего круга (до повторов)."""
+    cycle, pos = _position(kind)
+    left = len(CONTENT[KEYS[kind]]) - pos - 1
+    return left * 7 if kind == "promo" else left
 
 
 def examples_block(examples) -> str:
@@ -221,6 +239,14 @@ async def scheduled(ctx: ContextTypes.DEFAULT_TYPE):
     try:
         await send(kind, ctx.bot, CHANNEL_ID)
         log.info("Posted %s", kind)
+        # предупреждаем за неделю, что база рубрики заканчивается
+        if ADMIN_ID and kind in KEYS and kind != "promo" and days_left(kind) == 7:
+            await ctx.bot.send_message(
+                ADMIN_ID,
+                f"📦 В рубрике «{kind}» осталось материалов на 7 дней. Потом база пойдёт по второму кругу. "
+                "Чтобы не было повторов, добавьте новые элементы в content.json "
+                "или попросите Claude дописать ещё. Остатки по всем рубрикам: /stats",
+            )
     except Exception as exc:
         log.exception("Failed to post %s", kind)
         if ADMIN_ID:
@@ -276,7 +302,8 @@ async def cmd_start(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         "/preview <тип> — показать сегодняшний пост мне\n"
         "/tomorrow <тип> — показать завтрашний\n"
         "/post <тип> — опубликовать в канал прямо сейчас\n"
-        "/check — проверить, видит ли бот канал и есть ли права"
+        "/check — проверить, видит ли бот канал и есть ли права\n"
+        "/stats — сколько материалов осталось до повторов"
     )
 
 
@@ -300,6 +327,19 @@ def make_cmd(target: str, shift: int, name: str):
         if target == "channel":
             await update.message.reply_text("✅ Опубликовано в канал")
     return handler
+
+
+@admin_only
+async def cmd_stats(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
+    """Сколько материалов в базе и на сколько дней хватит без повторов."""
+    lines = ["📦 База контента:\n"]
+    for kind, key in KEYS.items():
+        total = len(CONTENT[key])
+        left = days_left(kind)
+        unit = "дн." if kind != "promo" else "дн. (раз в неделю)"
+        lines.append(f"• {kind}: {total} шт., без повторов ещё {left} {unit}")
+    lines.append("\nWeekly test собирается автоматически из слов недели.")
+    await update.message.reply_text("\n".join(lines))
 
 
 @admin_only
@@ -338,6 +378,7 @@ def main():
     app.add_handler(CommandHandler("tomorrow", make_cmd("me", 1, "tomorrow")))
     app.add_handler(CommandHandler("post", make_cmd("channel", 0, "post")))
     app.add_handler(CommandHandler("check", cmd_check))
+    app.add_handler(CommandHandler("stats", cmd_stats))
 
     for kind, (hhmm, days) in SCHEDULE.items():
         if not hhmm:
