@@ -33,7 +33,9 @@ log = logging.getLogger("yev-bot")
 # ---------- настройки ----------
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHANNEL_ID = os.environ.get("CHANNEL_ID", "@english_with_yev")
-ADMIN_ID = int(os.environ.get("ADMIN_ID", "0"))
+# один или несколько ID через запятую: ADMIN_ID=123456,789012
+ADMIN_IDS = {int(x) for x in os.environ.get("ADMIN_ID", "").replace(" ", "").split(",") if x.lstrip("-").isdigit()}
+ADMIN_ID = next(iter(sorted(ADMIN_IDS)), 0)  # кому слать уведомления, если список не пуст
 TZ = ZoneInfo(os.environ.get("TZ_NAME", "Europe/Moscow"))
 START_DATE = date.fromisoformat(os.environ.get("START_DATE", "2026-10-15"))
 SIGNATURE = os.environ.get("SIGNATURE", "@English_with_Yev")
@@ -240,17 +242,24 @@ async def scheduled(ctx: ContextTypes.DEFAULT_TYPE):
         await send(kind, ctx.bot, CHANNEL_ID)
         log.info("Posted %s", kind)
         # предупреждаем за неделю, что база рубрики заканчивается
-        if ADMIN_ID and kind in KEYS and kind != "promo" and days_left(kind) == 7:
-            await ctx.bot.send_message(
-                ADMIN_ID,
+        if ADMIN_IDS and kind in KEYS and kind != "promo" and days_left(kind) == 7:
+            await notify_admins(
+                ctx.bot,
                 f"📦 В рубрике «{kind}» осталось материалов на 7 дней. Потом база пойдёт по второму кругу. "
                 "Чтобы не было повторов, добавьте новые элементы в content.json "
                 "или попросите Claude дописать ещё. Остатки по всем рубрикам: /stats",
             )
     except Exception as exc:
         log.exception("Failed to post %s", kind)
-        if ADMIN_ID:
-            await ctx.bot.send_message(ADMIN_ID, f"⚠️ Не получилось опубликовать «{kind}».\n\n{explain_error(exc)}")
+        await notify_admins(ctx.bot, f"⚠️ Не получилось опубликовать «{kind}».\n\n{explain_error(exc)}")
+
+
+async def notify_admins(bot, text: str):
+    for admin in ADMIN_IDS:
+        try:
+            await bot.send_message(admin, text)
+        except Exception:
+            log.exception("Cannot notify admin %s", admin)
 
 
 def explain_error(exc: Exception) -> str:
@@ -274,9 +283,15 @@ def explain_error(exc: Exception) -> str:
 # ---------- команды для админа ----------
 def admin_only(func):
     async def wrapper(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
-        if update.effective_user and update.effective_user.id == ADMIN_ID:
+        user = update.effective_user
+        if user and user.id in ADMIN_IDS:
             return await func(update, ctx)
-        await update.message.reply_text("Этот бот публикует посты в канал English with Yev 🇬🇧")
+        await update.message.reply_text(
+            "Этот бот публикует посты в канал English with Yev 🇬🇧\n\n"
+            f"Ваш Telegram ID: {user.id if user else '?'}\n"
+            "Если вы владелец канала — впишите этот номер в Railway → Variables → ADMIN_ID "
+            "(несколько ID можно через запятую)."
+        )
     return wrapper
 
 
